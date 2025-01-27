@@ -31,6 +31,7 @@ import kickUserRouter from './routes/kickUserRouter.js';
 import WarehouseItemRoutes from './routes/WarehouseItemRoutes.js';
 import monitoringRoutes from './routes/monitoringRoutes.js'
 import gameStatsRoute from './routes/gameStatsRoute.js';
+import { router as updateCheckerRouter } from './routes/updateCheckerRoutes.js';
 
 dotenv.config();
 
@@ -97,6 +98,7 @@ const routesWithRootPrefix = [
   WarehouseItemRoutes,
   monitoringRoutes,
   gameStatsRoute,
+  updateCheckerRouter,
 ];
 
 // Подключение маршрутов с префиксом "/"
@@ -107,7 +109,6 @@ app.use('/check-availability', checkAvailabilityRoutes);
 app.use('/signin', signinRoutes);
 app.use('/in-game-web', express.static(path.join(__dirname, './views/in-game-web')));
 app.use(kickUserRouter); // Маршрут для кика
-
 
 // Проверка переменной окружения для логирования в консоль
 const logToConsole = process.env.LOG_TO_CONSOLE === 'true';
@@ -189,60 +190,61 @@ function getLocalIp() {
             }
         }
     }
-    return '127.0.0.1'; // Возвращаем localhost, если IP не найден
+    return '127.0.0.1';
 }
 
-// Получаем локальный IP
-const localIp = getLocalIp();
+    // Получаем локальный IP
+    const localIp = getLocalIp();
 
-// Настраиваем доменное имя (если есть)
-const domainName = 'example.com'; // Укажите доменное имя или оставьте пустым: ''
+    // Настраиваем доменное имя (если есть)
+    const domainName = 'example.com';
 
-// Получаем ширину консоли
-const consoleWidth = process.stdout.columns || 80;
+    // Получаем ширину консоли
+    const consoleWidth = process.stdout.columns || 80;
 
-// Функция для центрирования текста
-function centerText(text, maxWidth) {
-    const padding = Math.max(0, Math.floor((consoleWidth - maxWidth) / 2));
-    return ' '.repeat(padding) + text;
-}
+    // Функция для центрирования текста
+    function centerText(text, maxWidth) {
+        const padding = Math.max(0, Math.floor((consoleWidth - maxWidth) / 2));
+        return ' '.repeat(padding) + text;
+    }
 
-// Функция для выравнивания строки внутри рамки
-function padLine(content, maxContentLength) {
-    const padding = maxContentLength - content.length; // Вычисляем недостающие пробелы
-    const leftPadding = Math.floor(padding / 2); // Оставляем часть слева
-    const rightPadding = padding - leftPadding; // Остальное справа
-    return ' '.repeat(leftPadding) + content + ' '.repeat(rightPadding);
-}
+    // Функция для выравнивания строки внутри рамки
+    function padLine(content, maxContentLength) {
+        const padding = maxContentLength - content.length; // Вычисляем недостающие пробелы
+        const leftPadding = Math.floor(padding / 2); // Оставляем часть слева
+        const rightPadding = padding - leftPadding; // Остальное справа
+        return ' '.repeat(leftPadding) + content + ' '.repeat(rightPadding);
+    }
 
-// Устанавливаем рамку и максимальную длину содержимого
-const border = "██";
-const maxContentLength = 51; // Длина содержимого внутри рамки (с учётом пробелов)
+    // Устанавливаем рамку и максимальную длину содержимого
+    const border = "██";
+    const maxContentLength = 51; // Длина содержимого внутри рамки (с учётом пробелов)
 
-// Составляем строки
-const lines = [
-    "███████████████████████████████████████████████████████",
-    `${border}${padLine('', maxContentLength)}${border}`,
-    `${border}${padLine('B&S API SERVER STARTING NOW', maxContentLength)}${border}`,
-    `${border}${padLine('SERVER IS RUNNING ON PORT: 3000', maxContentLength)}${border}`,
-    `${border}${padLine(`LOCAL IP ADDRESS: ${localIp}`, maxContentLength)}${border}`,
-    domainName
-        ? `${border}${padLine(`DOMAIN NAME: ${domainName}`, maxContentLength)}${border}`
-        : `${border}${padLine('DOMAIN NAME: Not Configured', maxContentLength)}${border}`,
-    `${border}${padLine('ACCESS IT VIA: http://0.0.0.0:3000', maxContentLength)}${border}`,
-    `${border}${padLine('', maxContentLength)}${border}`,
-    "███████████████████████████████████████████████████████"
-];
+    // Составляем строки
+    const lines = [
+        "███████████████████████████████████████████████████████",
+        `${border}${padLine('', maxContentLength)}${border}`,
+        `${border}${padLine('B&S API SERVER STARTING NOW', maxContentLength)}${border}`,
+        `${border}${padLine('SERVER IS RUNNING ON PORT: 3000', maxContentLength)}${border}`,
+        `${border}${padLine(`LOCAL IP ADDRESS: ${localIp}`, maxContentLength)}${border}`,
+        domainName
+            ? `${border}${padLine(`DOMAIN NAME: ${domainName}`, maxContentLength)}${border}`
+            : `${border}${padLine('DOMAIN NAME: Not Configured', maxContentLength)}${border}`,
+        `${border}${padLine('ACCESS IT VIA: http://0.0.0.0:3000', maxContentLength)}${border}`,
+        `${border}${padLine('', maxContentLength)}${border}`,
+        "███████████████████████████████████████████████████████"
+    ];
 
-// Выводим строки по центру
-lines.forEach(line => {
-    console.warn(chalk.bold(centerText(line, lines[0].length)));
+    // Выводим строки по центру с цветами
+    lines.forEach(line => {
+    console.warn(chalk.cyan.bold(centerText(line, lines[0].length)));
 });
 
-// Пустая строка между секциями
-console.log(); // или console.log('');
+    // Пустая строка между секциями
+    console.log(); // или console.log('');
 
-// Запуск сервера
-app.listen(port, host, () => {
-    console.log(chalk.bgGreen(`B&S Api Server is running on ${host}:${port} (Local IP: ${chalk.blue(`${localIp}:${port}`)})`));
-});
+    // Запуск сервера
+    app.listen(port, host, () => {
+        console.log(chalk.bgGreen(`B&S Api Server is running on ${host}:${port} (Local IP: ${chalk.blue(`${localIp}:${port}`)})`));
+    });
+// })();

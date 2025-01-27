@@ -1,6 +1,18 @@
 
 <h3>Update Log</h3>
 
+<details>
+  <summary><b>Change Log: 27/01/2025</b></summary>
+
+  1. Added update management for B&S Server API:
+     Implemented a system to check for updates directly from the project's GitHub repository. The feature allows administrators to download the latest updates and perform automatic installations seamlessly, ensuring the B&S Server API remains up-to-date with minimal effort.
+
+  2. **Minor code tweaks and adjustments**:  
+     Made small improvements and optimizations to enhance code stability and readability.
+
+</details>
+
+<details>
   <summary><b>Change Log: 22/1/2025</b></summary>
 
   1. **Added item management and distribution**:  
@@ -29,6 +41,7 @@
 
      [Watch the update video on YouTube](https://youtu.be/LbAH0uluWvA?si=b6ft_EsowibnM5s8)
      
+</details>
 
 <details>
   <summary><b>Change Log: 13/11/2024</b></summary>

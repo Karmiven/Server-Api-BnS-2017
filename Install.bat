@@ -26,7 +26,8 @@ echo     "express-session": "latest", >> package.json
 echo     "mysql2": "latest", >> package.json
 echo     "os-utils":"latest", >> package.json
 echo     "pidusage": "latest", >> package.json
-echo     "xml2js": "latest" >> package.json
+echo     "xml2js": "latest", >> package.json
+echo     "marked": "latest" >> package.json
 echo   }, >> package.json
 echo   "devDependencies": {}, >> package.json
 echo   "engines": { >> package.json
@@ -122,6 +123,9 @@ echo LOG_FILE_PATH=registration_log.txt >> .env
 echo. >> .env
 echo # Вкл/Откл. Логирования в консоли >> .env
 echo LOG_TO_CONSOLE=true >> .env
+echo. >> .env
+echo # Вкл/Откл. Логирования обновления Api в консоли >> .env
+echo ENABLE_LOGGING=false >> .env
 echo. >> .env
 echo # Секрет для сессий: Используется для подписи сессионных данных (не забудьте заменить на свой собственный секретный ключ) >> .env
 echo SESSION_SECRET=9f4e85ecdc9bb4038d0a5ed2d20a06f739c6bdb539e217f8252b033e2c3dbd5e >> .env
