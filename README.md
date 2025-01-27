@@ -306,15 +306,12 @@ If you are looking for the **Blade & Soul** Game API Server for the 2020 version
 
 ## Additions / Fixes
 <details>
-  <summary><b>Change Log: 13/11/2024</b></summary>
+  <summary><b>Change Log: 27/01/2025</b></summary>
 
-  1. **Added authentication for accessing the admin panel**:  
-     Implemented a credential verification system to ensure that only authorized administrators can access the admin panel.
+  1. Added update management for B&S Server API:
+     Implemented a system to check for updates directly from the project's GitHub repository. The feature allows administrators to download the latest updates and perform automatic installations seamlessly, ensuring the B&S Server API remains up-to-date with minimal effort.
 
-  2. **Added a navigation panel to the Admin Panel**:  
-     Introduced a navigation bar to improve usability, providing quick access to key sections of the admin panel.
-
-  3. **Minor code tweaks and adjustments**:  
+  2. **Minor code tweaks and adjustments**:  
      Made small improvements and optimizations to enhance code stability and readability.
 
 </details>
@@ -350,4 +347,17 @@ If you are looking for the **Blade & Soul** Game API Server for the 2020 version
      
 </details>
 
+<details>
+  <summary><b>Change Log: 13/11/2024</b></summary>
+
+  1. **Added authentication for accessing the admin panel**:  
+     Implemented a credential verification system to ensure that only authorized administrators can access the admin panel.
+
+  2. **Added a navigation panel to the Admin Panel**:  
+     Introduced a navigation bar to improve usability, providing quick access to key sections of the admin panel.
+
+  3. **Minor code tweaks and adjustments**:  
+     Made small improvements and optimizations to enhance code stability and readability.
+
+</details>
 
