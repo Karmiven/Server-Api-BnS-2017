@@ -9,7 +9,7 @@ const router = express.Router();
 // Получаем текущую версию PresenceSrv
 const getPresenceSrvVersion = async () => {
     try {
-        const targetUrl = 'http://192.168.0.114:6605/spawned/PresenceSrv.1.$/users'; // Версия указана как $
+        const targetUrl = 'http://127.0.0.1:6605/spawned/PresenceSrv.1.$/users'; // Версия указана как $
 
         const response = await axios.get(targetUrl, { timeout: 5000 });
 
@@ -67,7 +67,7 @@ router.get('/admin/monitoring', isAdmin, async (req, res) => {
         const currentVersion = await getPresenceSrvVersion();
         if (!currentVersion) return res.status(500).send('Error fetching version or PresenceSrv is not running');
 
-        const targetUrl = `http://192.168.0.114:6605/spawned/PresenceSrv.1.${currentVersion}/users`;
+        const targetUrl = `http://127.0.0.1:6605/spawned/PresenceSrv.1.${currentVersion}/users`;
         const response = await axios.get(targetUrl, { timeout: 5000 });
 
         if (response.headers['content-type'].includes('xml')) {
