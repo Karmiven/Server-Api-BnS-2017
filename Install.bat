@@ -115,6 +115,12 @@ echo DB_PASSWORD=FSmElsXuj3ls8Fq >> .env
 echo DB_SERVER=localhost >> .env
 echo DB_NAME=PlatformAcctDb >> .env
 echo. >> .env
+echo # Настройки для LevelDb >> .env
+echo LEVEL_DB_USER=sa >> .env
+echo LEVEL_DB_PASSWORD=FSmElsXuj3ls8Fq >> .env
+echo LEVEL_DB_SERVER=localhost >> .env
+echo LEVEL_DB_DATABASE=LevelDb >> .env
+echo. >> .env
 echo # Внешний сервис >> .env
 echo SERVICE_URL=http://127.0.0.1:6605 >> .env
 echo. >> .env

@@ -2,6 +2,13 @@
 <h3>Update Log</h3>
 
 <details>
+  <summary><b>Change Log: 05/02/2025</b></summary>
+
+  1. Fix connection to LobbyDB database.
+  
+</details>
+
+<details>
   <summary><b>Change Log: 27/01/2025</b></summary>
 
   1. Added update management for B&S Server API:
