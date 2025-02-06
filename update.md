@@ -4,7 +4,9 @@
 <details>
   <summary><b>Change Log: 05/02/2025</b></summary>
 
-  1. Fix connection to LobbyDB database.
+  1. Fixed connection to LobbyDB database.  
+  2. *Run `install.bat` to create the LobbyDB connection entry in the `.env` file.*  
+  3. *Launch `Start_Api.bat` to start the API.*  
   
 </details>
 
