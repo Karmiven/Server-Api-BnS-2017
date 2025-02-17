@@ -154,7 +154,7 @@ To set up the API server, follow these steps:
     - Create `Start_Api.bat` for easy server startup.
     - Create the `.env` file with essential configuration for connecting to the game databases.
     - Install the required npm packages:
-      - `express`, `mssql`, `dotenv`, `axios`, `cors`, `ejs`, `argon2`, `bcrypt`, `chalk`, `express-session`, `mysql2`, `os-utils`, `pidusage`, `xml2js`.
+      - `express`, `mssql`, `dotenv`, `axios`, `cors`, `ejs`, `argon2`, `bcrypt`, `bootstrap`, `chalk`, `express-session`, `mysql2`, `os-utils`, `pidusage`, `xml2js`.
 
 4. **Configuration of Categories and Display of Items in Item Management and Distribution** 
  
@@ -165,7 +165,7 @@ To set up the API server, follow these steps:
      > - Set the location for the primary database file (`.mdf`).  
      > - Set the location for the transaction log file (`.ldf`).
 	 
-*Note: The full [**README.md**](https://github.com/war100ck/Server-Api-BnS-2017/tree/main/GAME_ITEMS_DB)
+*Note: The full [**README.md**](https://github.com/war100ck/Server-Api-BnS-2017/tree/main/DB)
  file with detailed instructions for setting up the **"Sending Items"** functionality can be found in the `GAME_ITEMS_DB` folder. It includes guidance on restoring the database, configuring image filenames, and managing item data required for proper system functionality. Please refer to this document for complete setup steps and further details.*
 
 5. **Configuration**:
@@ -278,6 +278,11 @@ This project relies on the following npm packages:
 - **chalk**: Adds colorful output for logging and debugging.
 - **express-session**: Manages user sessions.
 - **mysql2**: MySQL database connection support.
+- **bootstrap**: Frontend framework for building responsive websites.
+- **os-utils**: Provides utility functions for monitoring system performance (e.g., CPU usage, memory).
+- **pidusage**: Allows retrieving the CPU and memory usage of a specific process.
+- **xml2js**: Converts XML data to JavaScript objects and vice versa.
+- **marked**: A markdown parser and compiler.
 
 ## BnS Game Launcher
 
@@ -305,6 +310,26 @@ If you are looking for the **Blade & Soul** Game API Server for the 2020 version
 
 
 ## Additions / Fixes
+<details>
+  <summary><b>Change Log: 14/02/2025</b></summary>
+
+  1. **Added a donation-based store to the user profile**:  
+     Users can now purchase **velirs** using donations. The "donations" tab is located in the dropdown menu of the navigation panel in the user's profile.
+
+  2. **Added a section to the Admin Panel for adding and editing products (velirs)**:  
+     Admins can now manage the store's inventory, including adding and editing velirs.
+
+  3. **The donation store works exclusively with velirs**:  
+     Only velirs are available for purchase, and no other products should be listed.
+
+  4. **Payment systems are not yet integrated**:  
+     Currently, the store functionality is available, but payment processing has not been implemented.
+
+  5. **Significant code revisions**:  
+     Major optimizations and improvements were made to enhance the stability and performance of the system.
+
+</details>
+
 <details>
   <summary><b>Change Log: 27/01/2025</b></summary>
 
