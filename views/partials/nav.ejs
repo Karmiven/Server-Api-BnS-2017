@@ -24,6 +24,9 @@
 			<li class="nav-item <%= pathname === '/admin/monitoring' ? 'active' : '' %>">
                <a class="nav-link" href="/admin/monitoring">Monitoring</a>
             </li>
+			<li class="nav-item <%= pathname === '/admin/donate' ? 'active' : '' %>">
+               <a class="nav-link" href="/admin/donate">Donate Shop</a>
+            </li>
             <!-- Показываем поле поиска только на странице /admin -->
             <% if (pathname === '/admin') { %>
             <li class="nav-item">
@@ -41,7 +44,9 @@
                </select>
             </li>
             <% } %>
-            <!-- Новая ссылка "Visit Website" -->
+            <li class="nav-item <%= pathname === '/admin/update' ? 'active' : '' %>">
+               <a class="nav-link" href="/admin/update">Update Api</a>
+            </li>
             <li class="nav-item">
                <a class="nav-link text-info" href="/" target="_blank">Visit Website</a>
             </li>

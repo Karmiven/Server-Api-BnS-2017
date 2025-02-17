@@ -7,6 +7,7 @@ import path from 'path';
 import chalk from 'chalk';
 import fs from 'fs'
 import os from 'os';
+import helmet from 'helmet';
 import { fileURLToPath } from 'url';
 import { config } from './config/config.js';
 import { convertFaction, convertSex, convertRace, convertMoney, convertJob, cutStr } from './utils/dataTransformations.js';
@@ -31,6 +32,8 @@ import kickUserRouter from './routes/kickUserRouter.js';
 import WarehouseItemRoutes from './routes/WarehouseItemRoutes.js';
 import monitoringRoutes from './routes/monitoringRoutes.js'
 import gameStatsRoute from './routes/gameStatsRoute.js';
+import donateRoutes from './routes/donateRoutes.js';
+import { router as updateCheckerRouter } from './routes/updateCheckerRoutes.js';
 
 dotenv.config();
 
@@ -66,9 +69,13 @@ const __dirname = path.dirname(__filename);
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
+app.use(helmet.noSniff());
+app.use('/node_modules', express.static(path.join(__dirname, 'node_modules')));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use('/images', express.static(path.join(__dirname, 'images')));
-
+app.use('/fonts', express.static(path.join(__dirname, 'public', 'fonts'), {
+  maxAge: '30d'
+}));
 
 // Middleware для удаления завершающего слэша для определённых маршрутов
 app.use((req, res, next) => {
@@ -97,6 +104,8 @@ const routesWithRootPrefix = [
   WarehouseItemRoutes,
   monitoringRoutes,
   gameStatsRoute,
+  donateRoutes,
+  updateCheckerRouter,
 ];
 
 // Подключение маршрутов с префиксом "/"
@@ -106,7 +115,7 @@ routesWithRootPrefix.forEach(route => app.use('/', route));
 app.use('/check-availability', checkAvailabilityRoutes);
 app.use('/signin', signinRoutes);
 app.use('/in-game-web', express.static(path.join(__dirname, './views/in-game-web')));
-app.use(kickUserRouter); // Маршрут для кика
+app.use(kickUserRouter);
 
 
 // Проверка переменной окружения для логирования в консоль
@@ -117,7 +126,7 @@ let poolPlatformAcctDb;
 let poolBlGame01;
 let poolVirtualCurrencyDb;
 let poolWH;
-let poolLobbyDb; // Переменная для LobbyDB
+let poolLobbyDb;
 
 async function initializePools() {
     try {
@@ -154,6 +163,13 @@ async function initializePools() {
 //         console.error('Error during connection pool initialization:', err);
 //         process.exit(1); // Прекращаем работу приложения, если инициализация пула не удалась
 //     });
+
+// Middleware для добавления UserName в locals
+app.use((req, res, next) => {
+  const UserName = req.query.userName || req.session.UserName; // Используем UserName с заглавной буквы
+  res.locals.UserName = UserName;  // Делаем UserName доступным для всех шаблонов
+  next();
+});
 
 app.get('/api/current-time', (req, res) => {
     const currentTime = new Date();
@@ -223,7 +239,7 @@ const maxContentLength = 51; // Длина содержимого внутри �
 const lines = [
     "███████████████████████████████████████████████████████",
     `${border}${padLine('', maxContentLength)}${border}`,
-    `${border}${padLine('B&S API SERVER STARTING NOW', maxContentLength)}${border}`,
+    `${border}${padLine('B&S API SERVER 2017 STARTING NOW', maxContentLength)}${border}`,
     `${border}${padLine('SERVER IS RUNNING ON PORT: 3000', maxContentLength)}${border}`,
     `${border}${padLine(`LOCAL IP ADDRESS: ${localIp}`, maxContentLength)}${border}`,
     domainName

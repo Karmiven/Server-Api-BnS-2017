@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Server API Updater </title>
+      <link rel="icon" href="/images/favicon-admin.png" type="image/png">
+      <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="/css/admin.css">
+   </head>
+   <body class="bg-light d-flex flex-column min-vh-100">
+      <%- include('partials/nav') %>
+      <div class="container flex-grow-1">
+         <h2 class="header-title">Server API Updater </h2>
+         <% if (typeof successMessage !== 'undefined' && successMessage) { %>
+         <div class="alert alert-success" role="alert">
+            <%= successMessage %>
+         </div>
+         <% } %>
+         <div class="update-log">
+            <div style="background: #f5f5f5; padding: 30px; border-radius: 5px;">
+               <%- updateLog %>
+            </div>
+         </div>
+         <div class="mb-4">
+            <a href="/admin/update/check" class="btn btn-info me-2">Check for updates</a>
+            <form method="POST" action="/admin/update" style="display: inline;">
+               <button type="submit" class="btn btn-primary">Update</button>
+            </form>
+         </div>
+         <% if (checked) { %>
+         <% if (filesToUpdate.length > 0) { %>
+         <div class="alert alert-warning" role="alert">
+            Files to update detected. More details about the update can be found on the <a href="https://forum.ragezone.com/threads/blade-soul-api-server-game-launcher.1234817/" target="_blank" class="text-decoration-none">forum</a>.
+         </div>
+         <ul class="list-group mb-4">
+            <% filesToUpdate.forEach(file => { %>
+            <li class="list-group-item"><%= file %></li>
+            <% }) %>
+         </ul>
+         <% } else { %>
+         <div class="alert alert-success" role="alert">
+            All files are up to date!
+         </div>
+         <% } %>
+         <% } %>
+      </div>
+      <footer class="bg-light py-3 mt-auto">
+         <div class="container text-center">
+            <!-- <p>&copy; 2025 Your website, all rights reserved.</p> -->
+         </div>
+      </footer>
+      <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+   </body>
+</html>

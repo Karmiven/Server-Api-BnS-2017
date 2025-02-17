@@ -1,11 +1,15 @@
 body {
-      background: url('../images/backgrounds/home-style-bg.jpg?fit=crop&w=1920&h=1080&q=80') no-repeat center center fixed;
+      background-color: #1d242c;
+      background-image: url('../images/backgrounds/home-style-bg.webp');
       background-size: cover;
+      background-attachment: fixed;
+      background-position: center center;
+      background-repeat: no-repeat;
       height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-      position: relative; /* Добавлено для позиционирования кнопки */
+      position: relative;
     }
 
     .login-container {
@@ -59,7 +63,7 @@ body {
       position: fixed;
       top: 20px;
       right: 20px;
-      z-index: 1050; /* Должен быть выше остальных элементов */
+      z-index: 1050;
     }
 
     /* Позиционирование иконки глаза */
@@ -70,10 +74,10 @@ body {
     .password-container .fa-eye {
       position: absolute;
       right: 10px;
-      top: 73%; /* Установите здесь значение 73% для точного позиционирования */
+      top: 73%;
       transform: translateY(-50%);
       cursor: pointer;
-      color: rgba(0, 0, 0, 0.5); /* Измените цвет иконки */
+      color: rgba(0, 0, 0, 0.5);
     }
 
     /* Стили для кнопки "Return to Home" */
@@ -81,5 +85,5 @@ body {
       position: absolute;
       top: 20px;
       left: 20px;
-      z-index: 1050; /* Должен быть выше остальных элементов */
+      z-index: 1050;
     }

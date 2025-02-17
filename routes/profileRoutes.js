@@ -110,17 +110,21 @@ router.get('/profile', async (req, res) => {
 		const subscriptionDetails = await getSubscriptionDetails(user.UserId);
 
 		// Определяем статус
-		const statusMessage = vipLevel ?
-			{
-				message: 'VIP Active',
-				color: 'lightgreen',
-				imageUrl: '/images/shop/vip-active.png'
-			} // Активна - салатный, с изображением
-			:
-			{
-				message: 'No VIP subscription',
-				color: 'grey'
-			}; // Не активна - серый, с изображением
+		// Проверяем, истекла ли подписка
+const isVipExpired = subscriptionDetails && subscriptionDetails.ExpirationDateTime
+    ? new Date(subscriptionDetails.ExpirationDateTime) < new Date()
+    : true;
+
+const statusMessage = vipLevel && !isVipExpired
+    ? {
+        message: 'VIP Active',
+        color: 'lightgreen',
+        imageUrl: '/images/shop/vip-active.png'
+    }
+    : {
+        message: 'No VIP subscription',
+        color: 'grey'
+    };
 
 		// Форматируем дату в нужный формат
 		const formattedCreated = new Date(user.Created).toLocaleString('en-GB', {

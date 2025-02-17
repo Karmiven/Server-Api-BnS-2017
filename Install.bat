@@ -6,9 +6,9 @@ color 0A
 echo Creating package.json...
 echo { > package.json
 echo   "name": "Server API", >> package.json
-echo   "version": "1.0.0", >> package.json
+echo   "version": "1.4", >> package.json
 echo   "description": "Server for user registration and login for a gaming server, including profile management and data retrieval.", >> package.json
-echo   "main": "server.js", >> package.json
+echo   "main": "ServerApi.js", >> package.json
 echo   "scripts": { >> package.json
 echo     "start": "node server.js" >> package.json
 echo   }, >> package.json
@@ -23,10 +23,14 @@ echo     "argon2": "latest", >> package.json
 echo     "bcrypt": "latest", >> package.json
 echo     "chalk": "latest", >> package.json
 echo     "express-session": "latest", >> package.json
+echo     "helmet": "^8.0.0", >> package.json
 echo     "mysql2": "latest", >> package.json
+echo     "multer": "latest", >> package.json
 echo     "os-utils":"latest", >> package.json
 echo     "pidusage": "latest", >> package.json
-echo     "xml2js": "latest" >> package.json
+echo     "xml2js": "latest", >> package.json
+echo     "marked": "latest", >> package.json
+echo     "bootstrap": "^5.3.3" >> package.json
 echo   }, >> package.json
 echo   "devDependencies": {}, >> package.json
 echo   "engines": { >> package.json
@@ -114,6 +118,18 @@ echo DB_PASSWORD=FSmElsXuj3ls8Fq >> .env
 echo DB_SERVER=localhost >> .env
 echo DB_NAME=PlatformAcctDb >> .env
 echo. >> .env
+echo # Настройки для LobbyDB >> .env
+echo LOBBY_DB_USER=sa >> .env
+echo LOBBY_DB_PASSWORD=FSmElsXuj3ls8Fq >> .env
+echo LOBBY_DB_SERVER=localhost >> .env
+echo LOBBY_DB_DATABASE=LobbyDB >> .env
+echo. >> .env
+echo # Настройки для DonationsDb >> .env
+echo DONATIONS_DB_USER=sa >> .env
+echo DONATIONS_DB_PASSWORD=FSmElsXuj3ls8Fq >> .env
+echo DONATIONS_DB_SERVER=localhost >> .env
+echo DONATIONS_DB_DATABASE=DonationsDb >> .env
+echo. >> .env
 echo # Внешний сервис >> .env
 echo SERVICE_URL=http://127.0.0.1:6605 >> .env
 echo. >> .env
@@ -122,6 +138,9 @@ echo LOG_FILE_PATH=registration_log.txt >> .env
 echo. >> .env
 echo # Вкл/Откл. Логирования в консоли >> .env
 echo LOG_TO_CONSOLE=true >> .env
+echo. >> .env
+echo # Вкл/Откл. Логирования обновления Api в консоли >> .env
+echo ENABLE_LOGGING=false >> .env
 echo. >> .env
 echo # Секрет для сессий: Используется для подписи сессионных данных (не забудьте заменить на свой собственный секретный ключ) >> .env
 echo SESSION_SECRET=9f4e85ecdc9bb4038d0a5ed2d20a06f739c6bdb539e217f8252b033e2c3dbd5e >> .env

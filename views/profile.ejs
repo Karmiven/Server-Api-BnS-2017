@@ -3,14 +3,20 @@
    <head>
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Blade & Soul</title>
+      <title>Profile <%= UserName %></title>
       <link rel="icon" href="images/favicon.png" type="image/png">
-      <link rel="stylesheet" href="css/bootstrap.min.css">
-      <link rel="stylesheet" href="css/navbar.css?v=2">
-      <link rel="stylesheet" href="css/profile.css?v=2">
-      <link rel="stylesheet" href="css/all.min.css?v=2">
+      <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+      <link rel="stylesheet" href="css/navbar.min.css">
+      <link rel="stylesheet" href="css/profile.min.css">
+      <link rel="stylesheet" href="css/all.min.css">
+	  <link rel="stylesheet" href="css/preloader.css">
+	  <link rel="preload" href="/fonts/Lakeshore-Regular.woff2" as="font" type="font/ttf" crossorigin="anonymous">
+      <link rel="preload" href="/fonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2" as="font" type="font/woff2" crossorigin="anonymous">
    </head>
    <body id="profile-page" class="d-flex flex-column min-vh-100">
+   <div id="preloader">
+    <div class="bns"></div>
+   </div>
       <%- include('partials/navbar') %>
       <div class="container">
          <!-- Profile Card -->
@@ -19,7 +25,7 @@
                <h3></i> <%= UserName %></h3>
             </div>
             <div class="card-body text-center">
-               <img src="./images/avatars/<%= currentAvatar %>" alt="User Avatar" class="img-fluid user-avatar"> 
+               <img src="/images/avatars/<%= currentAvatar %>" alt="User Avatar" class="img-fluid user-avatar"> 
                <p class="mt-3">Email: <%= LoginName %></p>
                <p>Created: <%= Created %></p>
                <% if (statusMessage.imageUrl) { %>
@@ -183,10 +189,10 @@
       <%- include('partials/signupModal') %>
       <%- include('partials/signinModal') %>
       <!-- Bootstrap JS and dependencies -->
-      <script src="js/popper.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
+      <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+	  <script src="js/preloader.js"></script>
       <script src="js/all.min.js"></script>
-      <script src="js/navbar.js"></script>
+      <script src="js/navbar.min.js"></script>
       <script>
          document.addEventListener('DOMContentLoaded', async () => {
            const avatarContainer = document.getElementById('avatarContainer');

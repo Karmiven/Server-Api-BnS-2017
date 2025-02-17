@@ -11,6 +11,7 @@ const configPlatformAcctDb = {
   server: process.env.PLATFORM_ACCT_DB_SERVER,
   database: process.env.PLATFORM_ACCT_DB_DATABASE,
   options: {
+	secure: true,  
     encrypt: false, // Отключаем шифрование
     trustServerCertificate: true, // Доверять самоподписанным сертификатам
     enableArithAbort: true // Явно устанавливаем значение для предотвращения предупреждения
@@ -24,6 +25,7 @@ const configGradeMembersDb = {
   server: process.env.GRADE_MEMBERS_DB_SERVER,
   database: process.env.GRADE_MEMBERS_DB_DATABASE,
   options: {
+	secure: true,  
     encrypt: false,
     trustServerCertificate: true,
     enableArithAbort: true,
@@ -36,6 +38,7 @@ const configBanDb = {
   server: process.env.BAN_DB_SERVER,
   database: process.env.BAN_DB_DATABASE,
   options: {
+	secure: true,  
     encrypt: false, // Отключаем шифрование
     trustServerCertificate: true, // Доверять самоподписанным сертификатам
     enableArithAbort: true // Явно устанавливаем значение для предотвращения предупреждения
@@ -49,6 +52,7 @@ const configBlGame01 = {
   server: process.env.BLGAME01_DB_SERVER,
   database: process.env.BLGAME01_DB_DATABASE,
   options: {
+	secure: true,  
     encrypt: false, // Отключаем шифрование
     trustServerCertificate: true, // Доверять самоподписанным сертификатам
     enableArithAbort: true // Явно устанавливаем значение для предотвращения предупреждения
@@ -62,6 +66,7 @@ const configVirtualCurrencyDb = {
   server: process.env.VIRTUAL_CURRENCY_DB_SERVER,
   database: process.env.VIRTUAL_CURRENCY_DB_DATABASE,
   options: {
+	secure: true,
     encrypt: false, // Отключаем шифрование
     trustServerCertificate: true, // Доверять самоподписанным сертификатам
     enableArithAbort: true // Явно устанавливаем значение для предотвращения предупреждения
@@ -75,6 +80,7 @@ const configLobbyDb = {
   server: process.env.LOBBY_DB_SERVER,
   database: process.env.LOBBY_DB_DATABASE, // Проверьте, что здесь указана правильная база данных
   options: {
+	secure: true,
     encrypt: false,
     trustServerCertificate: true,
     enableArithAbort: true
@@ -88,6 +94,7 @@ const WH_config = {
   server: process.env.DB_SERVER,
   database: process.env.DB_NAME,
   options: {
+	secure: true,
     encrypt: true,
     trustServerCertificate: true,
     enableArithAbort: true
@@ -101,6 +108,7 @@ const configGameWarehouseDB = {
   server: process.env.GAME_WAREHOUSE_DB_SERVER,
   database: process.env.GAME_WAREHOUSE_DB_DATABASE,
   options: {
+	secure: true,
     encrypt: false,
     trustServerCertificate: true,
     enableArithAbort: true,
@@ -114,6 +122,7 @@ const configLevelDb = {
   server: process.env.LEVEL_DB_SERVER,
   database: process.env.LEVEL_DB_DATABASE,
   options: {
+	secure: true,
     encrypt: false,
     trustServerCertificate: true,
     enableArithAbort: true,
@@ -127,6 +136,21 @@ const configGameItemsDB = {
   server: process.env.GAME_ITEMS_DB_SERVER,
   database: process.env.GAME_ITEMS_DB_DATABASE,
   options: {
+	secure: true,
+    encrypt: false,
+    trustServerCertificate: true,
+    enableArithAbort: true,
+  },
+};
+
+// Настройки подключения к базе данных DonationsDb
+const configDonationsDb = {
+  user: process.env.DONATIONS_DB_USER,
+  password: process.env.DONATIONS_DB_PASSWORD,
+  server: process.env.DONATIONS_DB_SERVER,
+  database: process.env.DONATIONS_DB_DATABASE,
+  options: {
+	secure: true,
     encrypt: false,
     trustServerCertificate: true,
     enableArithAbort: true,
@@ -144,4 +168,5 @@ export {
   configGameWarehouseDB,
   configLevelDb,
   configGameItemsDB,
+  configDonationsDb,
 };
