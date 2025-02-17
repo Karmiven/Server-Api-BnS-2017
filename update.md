@@ -2,34 +2,6 @@
 <h3>Update Log</h3>
 
 <details>
-  <summary><b>Change Log: 14/02/2025</b></summary>
-
-  1. **Added a donation-based store to the user profile**:  
-     Users can now purchase **velirs** using donations. The "donations" tab is located in the dropdown menu of the navigation panel in the user's profile.
-
-  2. **Added a section to the Admin Panel for adding and editing products (velirs)**:  
-     Admins can now manage the store's inventory, including adding and editing velirs.
-
-  3. **The donation store works exclusively with velirs**:  
-     Only velirs are available for purchase, and no other products should be listed.
-
-  4. **Payment systems are not yet integrated**:  
-     Currently, the store functionality is available, but payment processing has not been implemented.
-
-  5. **Significant code revisions**:  
-     Major optimizations and improvements were made to enhance the stability and performance of the system.
-
-  <p style="font-style: italic; color: #FF6347;">Before running the server, please make sure to run <b>Install.bat</b> to ensure that all necessary dependencies and database setup are completed.</p>
-
-  <p style="font-style: italic; color: #FF6347;">After the update, please restart the API server for the changes to take effect.</p>
-
-  <p style="font-style: italic; color: #FF6347;">It is recommended to perform a fresh installation from the beginning, as there have been significant changes, and some unused files may remain. However, this will not affect the functionality of the system.</p>
-
-  <p style="font-style: italic; color: #FF6347;">Additionally, make sure to restore the database <b>DonationsDb.bak</b> from the <b>DB\</b> folder to ensure that all data is correctly populated.</p>
-
-</details>
-
-<details>
   <summary><b>Change Log: 05/02/2025</b></summary>
 
   1. Fixed connection to LobbyDB database.  
