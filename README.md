@@ -104,6 +104,8 @@ This API server has been tested on a private Blade & Soul test server.
 - **Logging**: Optional logging feature, controlled through environment variables, allows detailed logging to console for debugging and monitoring.
 - **Scalability**: Designed to support a large number of users and database operations, ensuring performance and security for a Blade & Soul private server.
 - **System Statistics**: Monitor CPU Usage, Memory Usage, and Server API Process Information to assess server load and performance in real time, helping ensure smooth operation and quick issue resolution.
+- **Donation-Based Store**: Users can acquire Velirs through donations, accessible via the "Donations" tab in their profile. Administrators can manage Velirs in the store via the admin panel. Payment processing is not integrated by default—administrators must set up their own payment system.
+- **Update Management for B&S Server API**: Administrators can now check for updates directly from the project's GitHub repository, download the latest versions, and install them automatically, ensuring the server stays up-to-date with minimal effort.
 
 ## Requirements
 
