@@ -1,0 +1,920 @@
+2025-07-13 12:27:02,140 - INFO - Обрабатывается файл: add_column_webadmin.bat
+2025-07-13 12:27:02,141 - INFO - Обрабатывается файл: Install.bat
+2025-07-13 12:27:02,141 - INFO - Обрабатывается файл: LICENSE
+2025-07-13 12:27:02,142 - INFO - Обрабатывается файл: README.md
+2025-07-13 12:27:02,143 - INFO - Обрабатывается файл: ServerApi.js
+2025-07-13 12:27:02,143 - INFO - Обрабатывается файл: update.md
+2025-07-13 12:27:02,233 - INFO - Обрабатывается файл: bns-patch/READMI.md
+2025-07-13 12:27:02,235 - INFO - Обрабатывается файл: bns-patch/READMI.txt
+2025-07-13 12:27:02,236 - INFO - Обрабатывается файл: bns-patch/Version.ini
+2025-07-13 12:27:02,237 - INFO - Обрабатывается файл: config/avatars.json
+2025-07-13 12:27:02,237 - INFO - Обрабатывается файл: config/config.js
+2025-07-13 12:27:02,238 - INFO - Обрабатывается файл: config/dbConfig.js
+2025-07-13 12:27:02,239 - INFO - Обрабатывается файл: DB/DonationsDb.bak
+2025-07-13 12:27:02,250 - INFO - Обрабатывается файл: DB/GameItemsDB.bak
+2025-07-13 12:27:02,338 - INFO - Обрабатывается файл: DB/README.md
+2025-07-13 12:27:02,340 - INFO - Обрабатывается файл: DB/restore_databases.sql
+2025-07-13 12:27:02,341 - INFO - Обрабатывается файл: DB/update_gameitems_filenames.sql
+2025-07-13 12:27:02,342 - INFO - Обрабатывается файл: middleware/adminMiddleware.js
+2025-07-13 12:27:02,342 - INFO - Обрабатывается файл: public/css/404.css
+2025-07-13 12:27:02,343 - INFO - Обрабатывается файл: public/css/admin-deposits.css
+2025-07-13 12:27:02,344 - INFO - Обрабатывается файл: public/css/admin-edit-character.css
+2025-07-13 12:27:02,344 - INFO - Обрабатывается файл: public/css/admin-edit-news.css
+2025-07-13 12:27:02,345 - INFO - Обрабатывается файл: public/css/admin-game-stats.css
+2025-07-13 12:27:02,345 - INFO - Обрабатывается файл: public/css/admin-login.css
+2025-07-13 12:27:02,346 - INFO - Обрабатывается файл: public/css/admin-processes.css
+2025-07-13 12:27:02,346 - INFO - Обрабатывается файл: public/css/admin-promotions.css
+2025-07-13 12:27:02,346 - INFO - Обрабатывается файл: public/css/admin-styles.css
+2025-07-13 12:27:02,347 - INFO - Обрабатывается файл: public/css/admin-system-stats.css
+2025-07-13 12:27:02,347 - INFO - Обрабатывается файл: public/css/admin-update-checke.css
+2025-07-13 12:27:02,348 - INFO - Обрабатывается файл: public/css/admin-warehouseItem.css
+2025-07-13 12:27:02,349 - INFO - Обрабатывается файл: public/css/donateshop.css
+2025-07-13 12:27:02,349 - INFO - Обрабатывается файл: public/css/error.css
+2025-07-13 12:27:02,350 - INFO - Обрабатывается файл: public/css/navbar.css
+2025-07-13 12:27:02,350 - INFO - Обрабатывается файл: public/css/preloader.css
+2025-07-13 12:27:02,350 - INFO - Обрабатывается файл: public/css/profile.css
+2025-07-13 12:27:02,351 - INFO - Обрабатывается файл: public/css/styles.css
+2025-07-13 12:27:02,351 - INFO - Обрабатывается файл: public/fonts/BakaExpert.ttf
+2025-07-13 12:27:02,354 - INFO - Обрабатывается файл: public/fonts/Lakeshore-Regular.ttf
+2025-07-13 12:27:02,356 - INFO - Обрабатывается файл: public/fonts/Lakeshore-Regular.woff
+2025-07-13 12:27:02,358 - INFO - Обрабатывается файл: public/fonts/Lakeshore-Regular.woff2
+2025-07-13 12:27:02,359 - INFO - Обрабатывается файл: public/fonts/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2
+2025-07-13 12:27:02,359 - INFO - Обрабатывается файл: public/fonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2
+2025-07-13 12:27:02,360 - INFO - Обрабатывается файл: public/images/favicon-admin.png
+2025-07-13 12:27:02,360 - INFO - Обрабатывается файл: public/images/favicon.png
+2025-07-13 12:27:02,361 - INFO - Обрабатывается файл: public/images/shop_images.zip
+2025-07-13 12:27:02,365 - INFO - Обрабатывается файл: public/images/avatars/profile12.png
+2025-07-13 12:27:02,366 - INFO - Обрабатывается файл: public/images/avatars/profile21.png
+2025-07-13 12:27:02,367 - INFO - Обрабатывается файл: public/images/avatars/profile22.png
+2025-07-13 12:27:02,367 - INFO - Обрабатывается файл: public/images/avatars/profile31.png
+2025-07-13 12:27:02,368 - INFO - Обрабатывается файл: public/images/avatars/profile32.png
+2025-07-13 12:27:02,368 - INFO - Обрабатывается файл: public/images/avatars/profile41.png
+2025-07-13 12:27:02,369 - INFO - Обрабатывается файл: public/images/avatars/profile42.png
+2025-07-13 12:27:02,369 - INFO - Обрабатывается файл: public/images/avatars/profile51.png
+2025-07-13 12:27:02,370 - INFO - Обрабатывается файл: public/images/avatars/profile52.png
+2025-07-13 12:27:02,371 - INFO - Обрабатывается файл: public/images/avatars/profile61.png
+2025-07-13 12:27:02,372 - INFO - Обрабатывается файл: public/images/avatars/profile62.png
+2025-07-13 12:27:02,372 - INFO - Обрабатывается файл: public/images/avatars/profile71.png
+2025-07-13 12:27:02,373 - INFO - Обрабатывается файл: public/images/avatars/profile72.png
+2025-07-13 12:27:02,374 - INFO - Обрабатывается файл: public/images/avatars/profile81.png
+2025-07-13 12:27:02,374 - INFO - Обрабатывается файл: public/images/avatars/profile82.png
+2025-07-13 12:27:02,375 - INFO - Обрабатывается файл: public/images/avatars/profile91.png
+2025-07-13 12:27:02,375 - INFO - Обрабатывается файл: public/images/avatars/user-avatar.gif
+2025-07-13 12:27:02,380 - INFO - Обрабатывается файл: public/images/backgrounds/banned.webp
+2025-07-13 12:27:02,380 - INFO - Обрабатывается файл: public/images/backgrounds/confetti.gif
+2025-07-13 12:27:02,400 - INFO - Обрабатывается файл: public/images/backgrounds/features-bg.webp
+2025-07-13 12:27:02,401 - INFO - Обрабатывается файл: public/images/backgrounds/home-style-bg.webp
+2025-07-13 12:27:02,402 - INFO - Обрабатывается файл: public/images/backgrounds/video-bg.webp
+2025-07-13 12:27:02,403 - INFO - Обрабатывается файл: public/images/button/button-play-sprite.webp
+2025-07-13 12:27:02,403 - INFO - Обрабатывается файл: public/images/button/button_signup.webp
+2025-07-13 12:27:02,404 - INFO - Обрабатывается файл: public/images/button/button_signup_smal.webp
+2025-07-13 12:27:02,405 - INFO - Обрабатывается файл: public/images/button/close-modal.webp
+2025-07-13 12:27:02,405 - INFO - Обрабатывается файл: public/images/button/devtracker_loading.png
+2025-07-13 12:27:02,406 - INFO - Обрабатывается файл: public/images/classes/assasin.webp
+2025-07-13 12:27:02,407 - INFO - Обрабатывается файл: public/images/classes/assasin1.webp
+2025-07-13 12:27:02,408 - INFO - Обрабатывается файл: public/images/classes/astromancer.webp
+2025-07-13 12:27:02,408 - INFO - Обрабатывается файл: public/images/classes/bladedancer.webp
+2025-07-13 12:27:02,409 - INFO - Обрабатывается файл: public/images/classes/blademaster.webp
+2025-07-13 12:27:02,411 - INFO - Обрабатывается файл: public/images/classes/class-icons-assassin.png
+2025-07-13 12:27:02,411 - INFO - Обрабатывается файл: public/images/classes/class-icons-astromancer.png
+2025-07-13 12:27:02,412 - INFO - Обрабатывается файл: public/images/classes/class-icons-bladedancer.png
+2025-07-13 12:27:02,412 - INFO - Обрабатывается файл: public/images/classes/class-icons-blademaster.png
+2025-07-13 12:27:02,413 - INFO - Обрабатывается файл: public/images/classes/class-icons-destroyer.png
+2025-07-13 12:27:02,414 - INFO - Обрабатывается файл: public/images/classes/class-icons-dualblade.png
+2025-07-13 12:27:02,414 - INFO - Обрабатывается файл: public/images/classes/class-icons-forcemaster.png
+2025-07-13 12:27:02,415 - INFO - Обрабатывается файл: public/images/classes/class-icons-gunslinger.png
+2025-07-13 12:27:02,415 - INFO - Обрабатывается файл: public/images/classes/class-icons-kungfumaster.png
+2025-07-13 12:27:02,416 - INFO - Обрабатывается файл: public/images/classes/class-icons-soulfighter.png
+2025-07-13 12:27:02,417 - INFO - Обрабатывается файл: public/images/classes/class-icons-summoner.png
+2025-07-13 12:27:02,417 - INFO - Обрабатывается файл: public/images/classes/class-icons-warden.png
+2025-07-13 12:27:02,418 - INFO - Обрабатывается файл: public/images/classes/class-icons-warlock.png
+2025-07-13 12:27:02,418 - INFO - Обрабатывается файл: public/images/classes/class-icons-zenarcher.png
+2025-07-13 12:27:02,419 - INFO - Обрабатывается файл: public/images/classes/destroyer.webp
+2025-07-13 12:27:02,421 - INFO - Обрабатывается файл: public/images/classes/dualblade.webp
+2025-07-13 12:27:02,422 - INFO - Обрабатывается файл: public/images/classes/forcemaster.webp
+2025-07-13 12:27:02,423 - INFO - Обрабатывается файл: public/images/classes/gunslinger.webp
+2025-07-13 12:27:02,424 - INFO - Обрабатывается файл: public/images/classes/kungfumaster.webp
+2025-07-13 12:27:02,425 - INFO - Обрабатывается файл: public/images/classes/soulfighter.webp
+2025-07-13 12:27:02,426 - INFO - Обрабатывается файл: public/images/classes/summoner.webp
+2025-07-13 12:27:02,427 - INFO - Обрабатывается файл: public/images/classes/summoner1.webp
+2025-07-13 12:27:02,428 - INFO - Обрабатывается файл: public/images/classes/warden.webp
+2025-07-13 12:27:02,429 - INFO - Обрабатывается файл: public/images/classes/warlock.webp
+2025-07-13 12:27:02,430 - INFO - Обрабатывается файл: public/images/classes/zenarcher.webp
+2025-07-13 12:27:02,431 - INFO - Обрабатывается файл: public/images/donations/a015e27aca315b27b989426b57e38de2
+2025-07-13 12:27:02,431 - INFO - Обрабатывается файл: public/images/donations/image-1749919131755-127069936.png
+2025-07-13 12:27:02,432 - INFO - Обрабатывается файл: public/images/donations/image-1749927533552-66750310.png
+2025-07-13 12:27:02,433 - INFO - Обрабатывается файл: public/images/donations/image-1749932159254-886662666.png
+2025-07-13 12:27:02,434 - INFO - Обрабатывается файл: public/images/donations/image-1749932249951-932119964.png
+2025-07-13 12:27:02,434 - INFO - Обрабатывается файл: public/images/donations/image-1752168594708-237531213.png
+2025-07-13 12:27:02,435 - INFO - Обрабатывается файл: public/images/donations/image-1752339965058-166710632.png
+2025-07-13 12:27:02,436 - INFO - Обрабатывается файл: public/images/donations/image-1752339975703-630276030.png
+2025-07-13 12:27:02,437 - INFO - Обрабатывается файл: public/images/donations/image-1752339989506-116508911.png
+2025-07-13 12:27:02,437 - INFO - Обрабатывается файл: public/images/donations/image-1752339996063-588574668.png
+2025-07-13 12:27:02,438 - INFO - Обрабатывается файл: public/images/donations/image-1752340003123-228904211.png
+2025-07-13 12:27:02,439 - INFO - Обрабатывается файл: public/images/donations/image-1752340012021-877250349.png
+2025-07-13 12:27:02,440 - INFO - Обрабатывается файл: public/images/donations/image-1752340022882-997181910.png
+2025-07-13 12:27:02,442 - INFO - Обрабатывается файл: public/images/faction/Cerulean_order_logo.webp
+2025-07-13 12:27:02,443 - INFO - Обрабатывается файл: public/images/faction/Crimson_legion_logo.webp
+2025-07-13 12:27:02,444 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_Coin_0025.png
+2025-07-13 12:27:02,445 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_Coupon_0001.png
+2025-07-13 12:27:02,445 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_Coupon_0002.png
+2025-07-13 12:27:02,446 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_Coupon_0003.png
+2025-07-13 12:27:02,447 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_Coupon_0004.png
+2025-07-13 12:27:02,447 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_Coupon_0009.png
+2025-07-13 12:27:02,448 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_Coupon_0011.png
+2025-07-13 12:27:02,448 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_Coupon_0012.png
+2025-07-13 12:27:02,449 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_GoodsStore_Coin_0001.png
+2025-07-13 12:27:02,449 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_Messenger_0002.png
+2025-07-13 12:27:02,449 - INFO - Обрабатывается файл: public/images/items/Cash_Grocery_WeaponGem_0044.png
+2025-07-13 12:27:02,450 - INFO - Обрабатывается файл: public/images/items/default.png
+2025-07-13 12:27:02,450 - INFO - Обрабатывается файл: public/images/items/Event_Grocery_Box_0405.png
+2025-07-13 12:27:02,451 - INFO - Обрабатывается файл: public/images/items/Event_Grocery_Box_0407.png
+2025-07-13 12:27:02,452 - INFO - Обрабатывается файл: public/images/items/Event_Grocery_Coin_0129.png
+2025-07-13 12:27:02,452 - INFO - Обрабатывается файл: public/images/items/Hammer_of_CrocodileSharkC.png
+2025-07-13 12:27:02,453 - INFO - Обрабатывается файл: public/images/items/NPC_Transparent_Gauntlet.png
+2025-07-13 12:27:02,453 - INFO - Обрабатывается файл: public/images/items/Start_zone_Aura-bangle.png
+2025-07-13 12:27:02,454 - INFO - Обрабатывается файл: public/images/items/Start_zone_Ax.png
+2025-07-13 12:27:02,454 - INFO - Обрабатывается файл: public/images/items/Start_zone_Dagger.png
+2025-07-13 12:27:02,455 - INFO - Обрабатывается файл: public/images/items/Start_zone_Gauntlet.png
+2025-07-13 12:27:02,455 - INFO - Обрабатывается файл: public/images/items/Start_zone_Staff.png
+2025-07-13 12:27:02,456 - INFO - Обрабатывается файл: public/images/items/Start_zone_Sword.png
+2025-07-13 12:27:02,456 - INFO - Обрабатывается файл: public/images/items/testItem.png
+2025-07-13 12:27:02,457 - INFO - Обрабатывается файл: public/images/items/Weapon_SW_Legendry.png
+2025-07-13 12:27:02,458 - INFO - Обрабатывается файл: public/images/jobs/class-icons-assassin.png
+2025-07-13 12:27:02,458 - INFO - Обрабатывается файл: public/images/jobs/class-icons-astromancer.png
+2025-07-13 12:27:02,459 - INFO - Обрабатывается файл: public/images/jobs/class-icons-bladedancer.png
+2025-07-13 12:27:02,460 - INFO - Обрабатывается файл: public/images/jobs/class-icons-blademaster.png
+2025-07-13 12:27:02,460 - INFO - Обрабатывается файл: public/images/jobs/class-icons-destroyer.png
+2025-07-13 12:27:02,462 - INFO - Обрабатывается файл: public/images/jobs/class-icons-dualblade.png
+2025-07-13 12:27:02,462 - INFO - Обрабатывается файл: public/images/jobs/class-icons-forcemaster.png
+2025-07-13 12:27:02,463 - INFO - Обрабатывается файл: public/images/jobs/class-icons-gunslinger.png
+2025-07-13 12:27:02,464 - INFO - Обрабатывается файл: public/images/jobs/class-icons-kungfumaster.png
+2025-07-13 12:27:02,464 - INFO - Обрабатывается файл: public/images/jobs/class-icons-soulfighter.png
+2025-07-13 12:27:02,465 - INFO - Обрабатывается файл: public/images/jobs/class-icons-summoner.png
+2025-07-13 12:27:02,465 - INFO - Обрабатывается файл: public/images/jobs/class-icons-warden.png
+2025-07-13 12:27:02,466 - INFO - Обрабатывается файл: public/images/jobs/class-icons-warlock.png
+2025-07-13 12:27:02,466 - INFO - Обрабатывается файл: public/images/jobs/class-icons-zenarcher.png
+2025-07-13 12:27:02,467 - INFO - Обрабатывается файл: public/images/logo/logo-bns.webp
+2025-07-13 12:27:02,468 - INFO - Обрабатывается файл: public/images/logo/logo.webp
+2025-07-13 12:27:02,468 - INFO - Обрабатывается файл: public/images/money/copper.png
+2025-07-13 12:27:02,469 - INFO - Обрабатывается файл: public/images/money/gold.png
+2025-07-13 12:27:02,469 - INFO - Обрабатывается файл: public/images/money/NCoin.webp
+2025-07-13 12:27:02,469 - INFO - Обрабатывается файл: public/images/money/silver.png
+2025-07-13 12:27:02,470 - INFO - Обрабатывается файл: public/images/races/race-feng.png
+2025-07-13 12:27:02,471 - INFO - Обрабатывается файл: public/images/races/race-lin.png
+2025-07-13 12:27:02,471 - INFO - Обрабатывается файл: public/images/races/race-sheng.png
+2025-07-13 12:27:02,471 - INFO - Обрабатывается файл: public/images/races/race-wan.png
+2025-07-13 12:27:02,472 - INFO - Обрабатывается файл: public/images/sex/female.png
+2025-07-13 12:27:02,473 - INFO - Обрабатывается файл: public/images/sex/male.png
+2025-07-13 12:27:02,473 - INFO - Обрабатывается файл: public/images/sex/unknown.png
+2025-07-13 12:27:02,474 - INFO - Обрабатывается файл: public/images/shop/no-vip.png
+2025-07-13 12:27:02,474 - INFO - Обрабатывается файл: public/images/shop/vip-active.png
+2025-07-13 12:27:02,475 - INFO - Обрабатывается файл: public/images/slide/index.webp
+2025-07-13 12:27:02,476 - INFO - Обрабатывается файл: public/images/slide/index_10.webp
+2025-07-13 12:27:02,477 - INFO - Обрабатывается файл: public/images/slide/index_11.webp
+2025-07-13 12:27:02,478 - INFO - Обрабатывается файл: public/images/slide/index_2.webp
+2025-07-13 12:27:02,479 - INFO - Обрабатывается файл: public/images/slide/index_3.webp
+2025-07-13 12:27:02,481 - INFO - Обрабатывается файл: public/images/slide/index_4.webp
+2025-07-13 12:27:02,482 - INFO - Обрабатывается файл: public/images/slide/index_5.webp
+2025-07-13 12:27:02,483 - INFO - Обрабатывается файл: public/images/slide/index_6.webp
+2025-07-13 12:27:02,484 - INFO - Обрабатывается файл: public/images/slide/index_7.webp
+2025-07-13 12:27:02,484 - INFO - Обрабатывается файл: public/images/slide/index_8.webp
+2025-07-13 12:27:02,485 - INFO - Обрабатывается файл: public/images/slide/index_9.webp
+2025-07-13 12:27:02,486 - INFO - Обрабатывается файл: public/images/star/star-empty.png
+2025-07-13 12:27:02,487 - INFO - Обрабатывается файл: public/images/star/star-filled.png
+2025-07-13 12:27:02,488 - INFO - Обрабатывается файл: public/js/admin-api-config.js
+2025-07-13 12:27:02,488 - INFO - Обрабатывается файл: public/js/admin-ban.js
+2025-07-13 12:27:02,489 - INFO - Обрабатывается файл: public/js/admin-deposits.js
+2025-07-13 12:27:02,489 - INFO - Обрабатывается файл: public/js/admin-donate.js
+2025-07-13 12:27:02,489 - INFO - Обрабатывается файл: public/js/admin-edit-character.js
+2025-07-13 12:27:02,490 - INFO - Обрабатывается файл: public/js/admin-edit-news.js
+2025-07-13 12:27:02,491 - INFO - Обрабатывается файл: public/js/admin-game-stats.js
+2025-07-13 12:27:02,491 - INFO - Обрабатывается файл: public/js/admin-game-world.js
+2025-07-13 12:27:02,491 - INFO - Обрабатывается файл: public/js/admin-login.js
+2025-07-13 12:27:02,492 - INFO - Обрабатывается файл: public/js/admin-monitoring.js
+2025-07-13 12:27:02,493 - INFO - Обрабатывается файл: public/js/admin-processes.js
+2025-07-13 12:27:02,493 - INFO - Обрабатывается файл: public/js/admin-promotions.js
+2025-07-13 12:27:02,494 - INFO - Обрабатывается файл: public/js/admin-styles.js
+2025-07-13 12:27:02,495 - INFO - Обрабатывается файл: public/js/admin-system-stats.js
+2025-07-13 12:27:02,495 - INFO - Обрабатывается файл: public/js/admin-update-checker.js
+2025-07-13 12:27:02,496 - INFO - Обрабатывается файл: public/js/admin-vip.js
+2025-07-13 12:27:02,496 - INFO - Обрабатывается файл: public/js/admin-warehouseItem.js
+2025-07-13 12:27:02,497 - INFO - Обрабатывается файл: public/js/banAlert.js
+2025-07-13 12:27:02,497 - INFO - Обрабатывается файл: public/js/donateShop.js
+2025-07-13 12:27:02,498 - INFO - Обрабатывается файл: public/js/main.js
+2025-07-13 12:27:02,498 - INFO - Обрабатывается файл: public/js/main.min.js
+2025-07-13 12:27:02,499 - INFO - Обрабатывается файл: public/js/navbar.js
+2025-07-13 12:27:02,499 - INFO - Обрабатывается файл: public/js/navbar.min.js
+2025-07-13 12:27:02,500 - INFO - Обрабатывается файл: public/js/preloader.js
+2025-07-13 12:27:02,500 - INFO - Обрабатывается файл: public/js/profile.js
+2025-07-13 12:27:02,500 - INFO - Обрабатывается файл: public/js/signup.js
+2025-07-13 12:27:02,502 - INFO - Обрабатывается файл: public/media/trailer.mp4
+2025-07-13 12:27:02,595 - INFO - Обрабатывается файл: public/webfonts/fa-brands-400.ttf
+2025-07-13 12:27:02,596 - INFO - Обрабатывается файл: public/webfonts/fa-brands-400.woff2
+2025-07-13 12:27:02,597 - INFO - Обрабатывается файл: public/webfonts/fa-regular-400.ttf
+2025-07-13 12:27:02,598 - INFO - Обрабатывается файл: public/webfonts/fa-regular-400.woff2
+2025-07-13 12:27:02,598 - INFO - Обрабатывается файл: public/webfonts/fa-solid-900.ttf
+2025-07-13 12:27:02,600 - INFO - Обрабатывается файл: public/webfonts/fa-solid-900.woff2
+2025-07-13 12:27:02,601 - INFO - Обрабатывается файл: public/webfonts/fa-v4compatibility.ttf
+2025-07-13 12:27:02,601 - INFO - Обрабатывается файл: public/webfonts/fa-v4compatibility.woff2
+2025-07-13 12:27:02,602 - INFO - Обрабатывается файл: routes/addBanRoutes.js
+2025-07-13 12:27:02,603 - INFO - Обрабатывается файл: routes/addDepositRoutes.js
+2025-07-13 12:27:02,603 - INFO - Обрабатывается файл: routes/adminApiConfigRoutes.js
+2025-07-13 12:27:02,604 - INFO - Обрабатывается файл: routes/adminNewsRoutes.js
+2025-07-13 12:27:02,604 - INFO - Обрабатывается файл: routes/adminRoutes.js
+2025-07-13 12:27:02,605 - INFO - Обрабатывается файл: routes/checkAvailability.js
+2025-07-13 12:27:02,605 - INFO - Обрабатывается файл: routes/donateRoutes.js
+2025-07-13 12:27:02,606 - INFO - Обрабатывается файл: routes/editCharacterRoutes.js
+2025-07-13 12:27:02,607 - INFO - Обрабатывается файл: routes/fileExplorerRoutes.js
+2025-07-13 12:27:02,607 - INFO - Обрабатывается файл: routes/gameStatsRoute.js
+2025-07-13 12:27:02,608 - INFO - Обрабатывается файл: routes/gameWorldRoutes.js
+2025-07-13 12:27:02,608 - INFO - Обрабатывается файл: routes/GradeMembersRoutes.js
+2025-07-13 12:27:02,609 - INFO - Обрабатывается файл: routes/kickUserRouter.js
+2025-07-13 12:27:02,609 - INFO - Обрабатывается файл: routes/monitoringRoutes.js
+2025-07-13 12:27:02,611 - INFO - Обрабатывается файл: routes/pageRoutes.js
+2025-07-13 12:27:02,611 - INFO - Обрабатывается файл: routes/processManagerRoutes.js
+2025-07-13 12:27:02,612 - INFO - Обрабатывается файл: routes/profileRoutes.js
+2025-07-13 12:27:02,612 - INFO - Обрабатывается файл: routes/routePromotionStamp.js
+2025-07-13 12:27:02,613 - INFO - Обрабатывается файл: routes/serverRestartRoute.js
+2025-07-13 12:27:02,613 - INFO - Обрабатывается файл: routes/signinRoutes.js
+2025-07-13 12:27:02,614 - INFO - Обрабатывается файл: routes/signupRoutes.js
+2025-07-13 12:27:02,614 - INFO - Обрабатывается файл: routes/systemStatsRoutes.js
+2025-07-13 12:27:02,615 - INFO - Обрабатывается файл: routes/updateCheckerRoutes.js
+2025-07-13 12:27:02,616 - INFO - Обрабатывается файл: routes/updateRoutes.js
+2025-07-13 12:27:02,616 - INFO - Обрабатывается файл: routes/WarehouseItemRoutes.js
+2025-07-13 12:27:02,619 - INFO - Обрабатывается файл: utils/characterUtils.js
+2025-07-13 12:27:02,619 - INFO - Обрабатывается файл: utils/configManager.js
+2025-07-13 12:27:02,619 - INFO - Обрабатывается файл: utils/dataTransformations.js
+2025-07-13 12:27:02,620 - INFO - Обрабатывается файл: utils/discordBot.js
+2025-07-13 12:27:02,620 - INFO - Обрабатывается файл: utils/fileExplorer.js
+2025-07-13 12:27:02,621 - INFO - Обрабатывается файл: utils/logger.js
+2025-07-13 12:27:02,621 - INFO - Обрабатывается файл: utils/logUtils.js
+2025-07-13 12:27:02,623 - INFO - Обрабатывается файл: utils/pathStorage.js
+2025-07-13 12:27:02,623 - INFO - Обрабатывается файл: utils/processManager.js
+2025-07-13 12:27:02,624 - INFO - Обрабатывается файл: utils/serverInfo.js
+2025-07-13 12:27:02,624 - INFO - Обрабатывается файл: utils/serverManager.js
+2025-07-13 12:27:02,625 - INFO - Обрабатывается файл: views/404.ejs
+2025-07-13 12:27:02,625 - INFO - Обрабатывается файл: views/addBan.ejs
+2025-07-13 12:27:02,626 - INFO - Обрабатывается файл: views/addDeposit.ejs
+2025-07-13 12:27:02,626 - INFO - Обрабатывается файл: views/addVip.ejs
+2025-07-13 12:27:02,627 - INFO - Обрабатывается файл: views/admin.ejs
+2025-07-13 12:27:02,627 - INFO - Обрабатывается файл: views/adminDonate.ejs
+2025-07-13 12:27:02,628 - INFO - Обрабатывается файл: views/adminLogin.ejs
+2025-07-13 12:27:02,628 - INFO - Обрабатывается файл: views/configApi.ejs
+2025-07-13 12:27:02,629 - INFO - Обрабатывается файл: views/donateShop.ejs
+2025-07-13 12:27:02,629 - INFO - Обрабатывается файл: views/edit-character.ejs
+2025-07-13 12:27:02,630 - INFO - Обрабатывается файл: views/editNews.ejs
+2025-07-13 12:27:02,631 - INFO - Обрабатывается файл: views/error.ejs
+2025-07-13 12:27:02,631 - INFO - Обрабатывается файл: views/gameStats.ejs
+2025-07-13 12:27:02,632 - INFO - Обрабатывается файл: views/gameWorld.ejs
+2025-07-13 12:27:02,632 - INFO - Обрабатывается файл: views/index.ejs
+2025-07-13 12:27:02,633 - INFO - Обрабатывается файл: views/monitoring.ejs
+2025-07-13 12:27:02,633 - INFO - Обрабатывается файл: views/processes.ejs
+2025-07-13 12:27:02,634 - INFO - Обрабатывается файл: views/profile.ejs
+2025-07-13 12:27:02,634 - INFO - Обрабатывается файл: views/promotions.ejs
+2025-07-13 12:27:02,635 - INFO - Обрабатывается файл: views/systemStats.ejs
+2025-07-13 12:27:02,635 - INFO - Обрабатывается файл: views/updateChecker.ejs
+2025-07-13 12:27:02,636 - INFO - Обрабатывается файл: views/warehouseItem.ejs
+2025-07-13 12:27:02,637 - INFO - Обрабатывается файл: views/partials/about-game.ejs
+2025-07-13 12:27:02,637 - INFO - Обрабатывается файл: views/partials/adminFooter.ejs
+2025-07-13 12:27:02,638 - INFO - Обрабатывается файл: views/partials/adminInfoModal.ejs
+2025-07-13 12:27:02,638 - INFO - Обрабатывается файл: views/partials/banInfoModal.ejs
+2025-07-13 12:27:02,639 - INFO - Обрабатывается файл: views/partials/carousel.ejs
+2025-07-13 12:27:02,639 - INFO - Обрабатывается файл: views/partials/characterInfoModal.ejs
+2025-07-13 12:27:02,639 - INFO - Обрабатывается файл: views/partials/class-modal.ejs
+2025-07-13 12:27:02,640 - INFO - Обрабатывается файл: views/partials/depositInfoModal.ejs
+2025-07-13 12:27:02,640 - INFO - Обрабатывается файл: views/partials/discordBotModal.ejs
+2025-07-13 12:27:02,641 - INFO - Обрабатывается файл: views/partials/donateInfoModal.ejs
+2025-07-13 12:27:02,641 - INFO - Обрабатывается файл: views/partials/events.ejs
+2025-07-13 12:27:02,641 - INFO - Обрабатывается файл: views/partials/game-classes.ejs
+2025-07-13 12:27:02,642 - INFO - Обрабатывается файл: views/partials/game-features.ejs
+2025-07-13 12:27:02,643 - INFO - Обрабатывается файл: views/partials/gameWorldInfoModal.ejs
+2025-07-13 12:27:02,643 - INFO - Обрабатывается файл: views/partials/hero.ejs
+2025-07-13 12:27:02,644 - INFO - Обрабатывается файл: views/partials/monitoringRawModal.ejs
+2025-07-13 12:27:02,644 - INFO - Обрабатывается файл: views/partials/nav.ejs
+2025-07-13 12:27:02,645 - INFO - Обрабатывается файл: views/partials/navbar.ejs
+2025-07-13 12:27:02,645 - INFO - Обрабатывается файл: views/partials/overview.ejs
+2025-07-13 12:27:02,646 - INFO - Обрабатывается файл: views/partials/processInfoModal.ejs
+2025-07-13 12:27:02,647 - INFO - Обрабатывается файл: views/partials/promoInfoModal.ejs
+2025-07-13 12:27:02,647 - INFO - Обрабатывается файл: views/partials/promoMobileRow.ejs
+2025-07-13 12:27:02,648 - INFO - Обрабатывается файл: views/partials/signinModal.ejs
+2025-07-13 12:27:02,648 - INFO - Обрабатывается файл: views/partials/signupModal.ejs
+2025-07-13 12:27:02,649 - INFO - Обрабатывается файл: views/partials/system-requirements.ejs
+2025-07-13 12:27:02,649 - INFO - Обрабатывается файл: views/partials/updateBackupCheckerModal.ejs
+2025-07-13 12:27:02,650 - INFO - Обрабатывается файл: views/partials/updateInfoModal.ejs
+2025-07-13 12:27:02,650 - INFO - Обрабатывается файл: views/partials/vipInfoModal.ejs
+2025-07-13 12:27:02,652 - INFO - Обрабатывается файл: views/partials/warehouseInfoModal.ejs
+2025-07-13 12:27:02,652 - INFO - Добавлены следующие файлы:
+2025-07-13 12:27:02,652 - INFO -   add_column_webadmin.bat: Новый хеш: a2e559b61a7605ebc8544b26d154ea23fce3df5c
+2025-07-13 12:27:02,653 - INFO -   Install.bat: Новый хеш: 6ba9e8801f7c95444cd5fb7e56672de921f08aa5
+2025-07-13 12:27:02,653 - INFO -   LICENSE: Новый хеш: bc3e14d982962220d3d9fb1ec8ad8cfaab2c07ce
+2025-07-13 12:27:02,653 - INFO -   README.md: Новый хеш: 605f24d91245325d4807dc14da0a440496540324
+2025-07-13 12:27:02,653 - INFO -   ServerApi.js: Новый хеш: 113ae7df9a1d8172a4627c0b1c51a7552530653f
+2025-07-13 12:27:02,653 - INFO -   update.md: Новый хеш: d293782053caf4f196a9b81ea686ee59f1960960
+2025-07-13 12:27:02,654 - INFO -   bns-patch/READMI.md: Новый хеш: dbee0350ff45b2914abf9e5574f5c09d7cbc2c51
+2025-07-13 12:27:02,654 - INFO -   bns-patch/READMI.txt: Новый хеш: d46f4acae97e900e3dc0ae38673cfc76739055d8
+2025-07-13 12:27:02,654 - INFO -   bns-patch/Version.ini: Новый хеш: f0e9296540d6e76109b77169521a9c15cbf3716d
+2025-07-13 12:27:02,654 - INFO -   config/avatars.json: Новый хеш: bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f
+2025-07-13 12:27:02,654 - INFO -   config/config.js: Новый хеш: 4c4b6dcd215b96af0dd92619a870837479660a69
+2025-07-13 12:27:02,655 - INFO -   config/dbConfig.js: Новый хеш: 1ebda4108d47c40ddab44e6759b795ed90d58607
+2025-07-13 12:27:02,655 - INFO -   DB/DonationsDb.bak: Новый хеш: 5135d0be124097f27061cfcaddf1b26a3df528ee
+2025-07-13 12:27:02,655 - INFO -   DB/GameItemsDB.bak: Новый хеш: 497be5db8abd9a8ac8243a883b6aba3f6e1b7613
+2025-07-13 12:27:02,655 - INFO -   DB/README.md: Новый хеш: 168511a7df385a6199c7d3b176322afd16b8cc9a
+2025-07-13 12:27:02,655 - INFO -   DB/restore_databases.sql: Новый хеш: 40f825e848728c7a78ae1c7fb346fb5a11628c2c
+2025-07-13 12:27:02,656 - INFO -   DB/update_gameitems_filenames.sql: Новый хеш: e3164d60ba02e84f32e390102bea489a7d4e4c12
+2025-07-13 12:27:02,656 - INFO -   middleware/adminMiddleware.js: Новый хеш: 2f2b337ded2ceccf6e107b7d50633f7aee321bdd
+2025-07-13 12:27:02,656 - INFO -   public/css/404.css: Новый хеш: 99abe1749707d5774e09ac7381a8e8ee700299a6
+2025-07-13 12:27:02,656 - INFO -   public/css/admin-deposits.css: Новый хеш: c96213375a0a271103532c1610b59ba7447c16c3
+2025-07-13 12:27:02,656 - INFO -   public/css/admin-edit-character.css: Новый хеш: b8b7a64053df71fc8d1ee09b74d7163881f9708d
+2025-07-13 12:27:02,657 - INFO -   public/css/admin-edit-news.css: Новый хеш: 7b0584a8cbe907a9da41ae9fa267f1f6ffadda01
+2025-07-13 12:27:02,657 - INFO -   public/css/admin-game-stats.css: Новый хеш: 9094b2d418759544f59e44acfa0ce160d79829e0
+2025-07-13 12:27:02,657 - INFO -   public/css/admin-login.css: Новый хеш: eeea23b613087c3e47b0ba7c103b45d9ff32a445
+2025-07-13 12:27:02,657 - INFO -   public/css/admin-processes.css: Новый хеш: 7df00929653f6176088eec17234e4fbea994ec87
+2025-07-13 12:27:02,657 - INFO -   public/css/admin-promotions.css: Новый хеш: d73486d24ec265c3d078d7bc582805d87edf02c2
+2025-07-13 12:27:02,658 - INFO -   public/css/admin-styles.css: Новый хеш: 695cf250bb50b2e5ec78b97aa85e52ef8f30d8f8
+2025-07-13 12:27:02,658 - INFO -   public/css/admin-system-stats.css: Новый хеш: 6df6a72cca30d5647171d1589b270e4ea432319a
+2025-07-13 12:27:02,658 - INFO -   public/css/admin-update-checke.css: Новый хеш: dde4ccf1d75d9d76fc408644390b7a7877151825
+2025-07-13 12:27:02,658 - INFO -   public/css/admin-warehouseItem.css: Новый хеш: 0d8eafce4bb07ec67e80e149e701e832cf3b45f4
+2025-07-13 12:27:02,659 - INFO -   public/css/donateshop.css: Новый хеш: ea0327511a3cc60dd5c6e08c86e45c774557e345
+2025-07-13 12:27:02,659 - INFO -   public/css/error.css: Новый хеш: cdd3d2bc861c4c94fbb56efec006689887dbe2ad
+2025-07-13 12:27:02,659 - INFO -   public/css/navbar.css: Новый хеш: a03498033f627ac7f6f29917b80fd3a6dcd91ea3
+2025-07-13 12:27:02,659 - INFO -   public/css/preloader.css: Новый хеш: dbb52baae8de1ebdfc34a0f019e5be0031dc7882
+2025-07-13 12:27:02,659 - INFO -   public/css/profile.css: Новый хеш: df2dda379b501d61b56061d8f8b476be49622d21
+2025-07-13 12:27:02,659 - INFO -   public/css/styles.css: Новый хеш: b67972d6cecbafb77de1c687b4cb209c932b6164
+2025-07-13 12:27:02,659 - INFO -   public/fonts/BakaExpert.ttf: Новый хеш: ca97f3b159adce71b097dd4a339ebe54782723a4
+2025-07-13 12:27:02,660 - INFO -   public/fonts/Lakeshore-Regular.ttf: Новый хеш: a89cce60788135ffa418953f489b6a62afe018a5
+2025-07-13 12:27:02,660 - INFO -   public/fonts/Lakeshore-Regular.woff: Новый хеш: aa9d39d095e7f18219308d8be274b912845af086
+2025-07-13 12:27:02,660 - INFO -   public/fonts/Lakeshore-Regular.woff2: Новый хеш: 5a6d71f0d6240b7054a46722afdae76e3d2b02c8
+2025-07-13 12:27:02,660 - INFO -   public/fonts/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2: Новый хеш: af18a91dc2757b12651ba59d06fd0cfa536ba8db
+2025-07-13 12:27:02,660 - INFO -   public/fonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2: Новый хеш: 6cd63d09cc1f526aba20b654ef5b55f8104586c6
+2025-07-13 12:27:02,661 - INFO -   public/images/favicon-admin.png: Новый хеш: d098b515b7bd409a61076088a467d755f5fd7f97
+2025-07-13 12:27:02,661 - INFO -   public/images/favicon.png: Новый хеш: 9244efcbb04d8ab99eadccade69ce501bc4c28a5
+2025-07-13 12:27:02,661 - INFO -   public/images/shop_images.zip: Новый хеш: fbe8f87b7536ba54c5c59be89a3feddfb442b28d
+2025-07-13 12:27:02,661 - INFO -   public/images/avatars/profile12.png: Новый хеш: 8af9c358645ee0af763c0ef1e0695be7d7f1c3de
+2025-07-13 12:27:02,661 - INFO -   public/images/avatars/profile21.png: Новый хеш: 69e299cf285d53c52b2718ec364c8268a692cdc7
+2025-07-13 12:27:02,662 - INFO -   public/images/avatars/profile22.png: Новый хеш: 188bbe7712f1504765b3412222de15715535c928
+2025-07-13 12:27:02,662 - INFO -   public/images/avatars/profile31.png: Новый хеш: 3bfca643f760e08ac4a7b552bd245c5e7bca0774
+2025-07-13 12:27:02,662 - INFO -   public/images/avatars/profile32.png: Новый хеш: cfdc6e50898dad13ec6255428fa6b9db2a1a61ee
+2025-07-13 12:27:02,662 - INFO -   public/images/avatars/profile41.png: Новый хеш: 243a764b298b7dbcb7a32f606b886db764b17591
+2025-07-13 12:27:02,662 - INFO -   public/images/avatars/profile42.png: Новый хеш: 5ec75b9588e55194ac8a49c1bd068d25bd474ea7
+2025-07-13 12:27:02,663 - INFO -   public/images/avatars/profile51.png: Новый хеш: c4fb70c1701fb39b61f558631569151c2a0c4ce3
+2025-07-13 12:27:02,663 - INFO -   public/images/avatars/profile52.png: Новый хеш: b3586c6531c6b328412af2411af257171ac2f93c
+2025-07-13 12:27:02,663 - INFO -   public/images/avatars/profile61.png: Новый хеш: 1fa50be38e358f8464a9f90a4a8ee822f31971ae
+2025-07-13 12:27:02,663 - INFO -   public/images/avatars/profile62.png: Новый хеш: 7c156474db3f7310b8fa203d90b10ffa3281155f
+2025-07-13 12:27:02,663 - INFO -   public/images/avatars/profile71.png: Новый хеш: 1c7d23d047a4bab5ea32a05c3dfd67db4944d22e
+2025-07-13 12:27:02,664 - INFO -   public/images/avatars/profile72.png: Новый хеш: 8c6197b30fbe0150c5cda1f705f12cd78e0fb506
+2025-07-13 12:27:02,664 - INFO -   public/images/avatars/profile81.png: Новый хеш: a40f9cd4114c6ed001630aea35ef0a54552091b4
+2025-07-13 12:27:02,664 - INFO -   public/images/avatars/profile82.png: Новый хеш: 1d876c855781086f9b0747c84ba8635cdc07f441
+2025-07-13 12:27:02,664 - INFO -   public/images/avatars/profile91.png: Новый хеш: bf1fb1a3e4343fe77400f63d13b1f3a062ee5d44
+2025-07-13 12:27:02,664 - INFO -   public/images/avatars/user-avatar.gif: Новый хеш: 9c793b516c3ab021c627478795fdd4233fcd81a4
+2025-07-13 12:27:02,665 - INFO -   public/images/backgrounds/banned.webp: Новый хеш: 1773fa0676842b59fac672ae837767dff1656ab6
+2025-07-13 12:27:02,665 - INFO -   public/images/backgrounds/confetti.gif: Новый хеш: 149f5a03f0a2c1117fb3830f4df4c371e52d0387
+2025-07-13 12:27:02,665 - INFO -   public/images/backgrounds/features-bg.webp: Новый хеш: 3670386c9b0ca3095ba81c8a3d9314e48d905fbe
+2025-07-13 12:27:02,665 - INFO -   public/images/backgrounds/home-style-bg.webp: Новый хеш: 77c0d2549c6bbfc1e3b385176af7c49e73676ceb
+2025-07-13 12:27:02,665 - INFO -   public/images/backgrounds/video-bg.webp: Новый хеш: 5cf1f6f28fd6c7d38987b74b512c04831d588b3a
+2025-07-13 12:27:02,666 - INFO -   public/images/button/button-play-sprite.webp: Новый хеш: 3fc3c1ad36f2779179047cfcdd99baa09c653b10
+2025-07-13 12:27:02,666 - INFO -   public/images/button/button_signup.webp: Новый хеш: df52d01b3c1795bb5373ef8d574dcd0503633ead
+2025-07-13 12:27:02,666 - INFO -   public/images/button/button_signup_smal.webp: Новый хеш: d497777be764261c62b75a47264678531fc15acd
+2025-07-13 12:27:02,666 - INFO -   public/images/button/close-modal.webp: Новый хеш: 237edeb691a96959e5f5c90881f5ae6a5b2ec6f4
+2025-07-13 12:27:02,666 - INFO -   public/images/button/devtracker_loading.png: Новый хеш: d78c89cb6205868251432b4f05c528270f51b543
+2025-07-13 12:27:02,667 - INFO -   public/images/classes/assasin.webp: Новый хеш: 0c47031e0bbc093229a3cd427722c2c7d3a4137e
+2025-07-13 12:27:02,667 - INFO -   public/images/classes/assasin1.webp: Новый хеш: aa7a24b130d7c2c787e6892d6b4eb6662795b039
+2025-07-13 12:27:02,667 - INFO -   public/images/classes/astromancer.webp: Новый хеш: be53c2bf3be46af0aa408bf070b64630fad1a0da
+2025-07-13 12:27:02,667 - INFO -   public/images/classes/bladedancer.webp: Новый хеш: 5339b0604eb692d66890a1f8b214ea4a228c114f
+2025-07-13 12:27:02,667 - INFO -   public/images/classes/blademaster.webp: Новый хеш: 0c8a27e6dc56b3c5ce32db622ad739f2c9a7bb49
+2025-07-13 12:27:02,667 - INFO -   public/images/classes/class-icons-assassin.png: Новый хеш: 44b9dc5939c9697b64023bb4c326b9cbde1c4418
+2025-07-13 12:27:02,668 - INFO -   public/images/classes/class-icons-astromancer.png: Новый хеш: ca73358feaf4ef0eaa4eedba2a5742ac6c96aaee
+2025-07-13 12:27:02,668 - INFO -   public/images/classes/class-icons-bladedancer.png: Новый хеш: 6bbd8d34b237d476db5ec658e98203b48f3b06b2
+2025-07-13 12:27:02,668 - INFO -   public/images/classes/class-icons-blademaster.png: Новый хеш: 94d763b12f6c6fc865250921a0971465d9e5f805
+2025-07-13 12:27:02,668 - INFO -   public/images/classes/class-icons-destroyer.png: Новый хеш: 694cdb3957dae5d09e034a1805e59a182767c85d
+2025-07-13 12:27:02,668 - INFO -   public/images/classes/class-icons-dualblade.png: Новый хеш: b0cb00da164d71438353f98787484ca1b761489e
+2025-07-13 12:27:02,669 - INFO -   public/images/classes/class-icons-forcemaster.png: Новый хеш: 8532590508f682a4c9571bb6e57e9808503bac23
+2025-07-13 12:27:02,669 - INFO -   public/images/classes/class-icons-gunslinger.png: Новый хеш: 1c4efb3e18931be3d52bb58171c95c340b7f7f8a
+2025-07-13 12:27:02,669 - INFO -   public/images/classes/class-icons-kungfumaster.png: Новый хеш: 850c74b90a33a97b7e5dfd980c55441249e4740b
+2025-07-13 12:27:02,669 - INFO -   public/images/classes/class-icons-soulfighter.png: Новый хеш: 9761a8c660d7ce7886d72bf5504411208fa3fc53
+2025-07-13 12:27:02,670 - INFO -   public/images/classes/class-icons-summoner.png: Новый хеш: c058d8c7fdee8913381c82a06efaad5c60fbd194
+2025-07-13 12:27:02,670 - INFO -   public/images/classes/class-icons-warden.png: Новый хеш: 447312a6a2548d469c1260502305f6a71fd04396
+2025-07-13 12:27:02,670 - INFO -   public/images/classes/class-icons-warlock.png: Новый хеш: 9ecdb81828bd255b947d035b3fae872b874f5a47
+2025-07-13 12:27:02,670 - INFO -   public/images/classes/class-icons-zenarcher.png: Новый хеш: 0663db54bc8be7dcf74e00cccd8b39251a626a79
+2025-07-13 12:27:02,670 - INFO -   public/images/classes/destroyer.webp: Новый хеш: 77f7f6f65f8e468cb2c5e33f559b94f9cd8904f6
+2025-07-13 12:27:02,670 - INFO -   public/images/classes/dualblade.webp: Новый хеш: 07f81b7d2ee9de24b559f9322f7d77b37b36b4ea
+2025-07-13 12:27:02,672 - INFO -   public/images/classes/forcemaster.webp: Новый хеш: ff011c1f6803f4da7ffb66f9c0b4eaead21bd1db
+2025-07-13 12:27:02,672 - INFO -   public/images/classes/gunslinger.webp: Новый хеш: 6b60c3264285c90b8c73df05c3da06ecb55df155
+2025-07-13 12:27:02,672 - INFO -   public/images/classes/kungfumaster.webp: Новый хеш: 5abfd20c8a4673d9e8e978796c2e1e3c57b980fe
+2025-07-13 12:27:02,672 - INFO -   public/images/classes/soulfighter.webp: Новый хеш: 46a141a92a56734e86fef87cdaf583683ecbf2d1
+2025-07-13 12:27:02,672 - INFO -   public/images/classes/summoner.webp: Новый хеш: c87255b58d673b500aeed8ea7e6a5fa73e5819d6
+2025-07-13 12:27:02,673 - INFO -   public/images/classes/summoner1.webp: Новый хеш: e2e8eaa17d4568e90b8b2f2a4b6414e777f79be4
+2025-07-13 12:27:02,673 - INFO -   public/images/classes/warden.webp: Новый хеш: 4afe442ecfe4a33c93854325d98c8a3324e676fb
+2025-07-13 12:27:02,673 - INFO -   public/images/classes/warlock.webp: Новый хеш: 84b3ac345983a75d971073d38c8e79d21dcbe43a
+2025-07-13 12:27:02,673 - INFO -   public/images/classes/zenarcher.webp: Новый хеш: b573147e3259d89e3b1dc1e689f4c14cd44f25c5
+2025-07-13 12:27:02,673 - INFO -   public/images/donations/a015e27aca315b27b989426b57e38de2: Новый хеш: 1618800ce53bd44cff6946f52f8ab92621d53010
+2025-07-13 12:27:02,674 - INFO -   public/images/donations/image-1749919131755-127069936.png: Новый хеш: 1618800ce53bd44cff6946f52f8ab92621d53010
+2025-07-13 12:27:02,674 - INFO -   public/images/donations/image-1749927533552-66750310.png: Новый хеш: 7394fb0f0b4f3307e9e65f3fc28da57bc8d0ae49
+2025-07-13 12:27:02,674 - INFO -   public/images/donations/image-1749932159254-886662666.png: Новый хеш: 804c8fbaab319d214f5193b91b9ac60c9ee24231
+2025-07-13 12:27:02,674 - INFO -   public/images/donations/image-1749932249951-932119964.png: Новый хеш: 7d4aeec112b7feb4ea5f7aa624ba909e3bfd83fd
+2025-07-13 12:27:02,674 - INFO -   public/images/donations/image-1752168594708-237531213.png: Новый хеш: 7394fb0f0b4f3307e9e65f3fc28da57bc8d0ae49
+2025-07-13 12:27:02,675 - INFO -   public/images/donations/image-1752339965058-166710632.png: Новый хеш: 1618800ce53bd44cff6946f52f8ab92621d53010
+2025-07-13 12:27:02,675 - INFO -   public/images/donations/image-1752339975703-630276030.png: Новый хеш: 7394fb0f0b4f3307e9e65f3fc28da57bc8d0ae49
+2025-07-13 12:27:02,675 - INFO -   public/images/donations/image-1752339989506-116508911.png: Новый хеш: f0ea2f2ac8e9f034b497f37c5ecc2c1daddbd7f5
+2025-07-13 12:27:02,675 - INFO -   public/images/donations/image-1752339996063-588574668.png: Новый хеш: db99772e22e8256da3ac65f159fcaa262c73464b
+2025-07-13 12:27:02,675 - INFO -   public/images/donations/image-1752340003123-228904211.png: Новый хеш: 8712220bd8d0f53f2dc6e54e0fccb67d0e7f56d6
+2025-07-13 12:27:02,676 - INFO -   public/images/donations/image-1752340012021-877250349.png: Новый хеш: 9684de3dca6ff1c40e7521944163a2a34eaee29c
+2025-07-13 12:27:02,676 - INFO -   public/images/donations/image-1752340022882-997181910.png: Новый хеш: 5b6645b980792218c7387b129e6a30e80a5afe56
+2025-07-13 12:27:02,676 - INFO -   public/images/faction/Cerulean_order_logo.webp: Новый хеш: 25f9f961e1b9e71448647466e435570b1c6ddd3a
+2025-07-13 12:27:02,676 - INFO -   public/images/faction/Crimson_legion_logo.webp: Новый хеш: d4ca41e60c9969e2b6c8c852524078d1f016321f
+2025-07-13 12:27:02,677 - INFO -   public/images/items/Cash_Grocery_Coin_0025.png: Новый хеш: 1000086002d847cc6df064793829acd6784d73c2
+2025-07-13 12:27:02,677 - INFO -   public/images/items/Cash_Grocery_Coupon_0001.png: Новый хеш: 6e5229b1e7bad205f95d729d988e8a92da49f8c5
+2025-07-13 12:27:02,677 - INFO -   public/images/items/Cash_Grocery_Coupon_0002.png: Новый хеш: e888ba79dc1c50da141c5137031826bf5130cfff
+2025-07-13 12:27:02,677 - INFO -   public/images/items/Cash_Grocery_Coupon_0003.png: Новый хеш: cd6d2aeef97989ad58729c879f99cb959f031446
+2025-07-13 12:27:02,677 - INFO -   public/images/items/Cash_Grocery_Coupon_0004.png: Новый хеш: 2f505bf260c6d6d558154afcc0eaad5c3acc0322
+2025-07-13 12:27:02,678 - INFO -   public/images/items/Cash_Grocery_Coupon_0009.png: Новый хеш: 44af8213db16cebbff2e11ab0ca4796cda69d173
+2025-07-13 12:27:02,678 - INFO -   public/images/items/Cash_Grocery_Coupon_0011.png: Новый хеш: e94ea78aec53a4f1b6c14fd34f9db7608534c3b0
+2025-07-13 12:27:02,678 - INFO -   public/images/items/Cash_Grocery_Coupon_0012.png: Новый хеш: 12df126f426572fa63ed003276638154f9f67973
+2025-07-13 12:27:02,678 - INFO -   public/images/items/Cash_Grocery_GoodsStore_Coin_0001.png: Новый хеш: 19f78dcaa4f1513f40280809431c0743601399e0
+2025-07-13 12:27:02,678 - INFO -   public/images/items/Cash_Grocery_Messenger_0002.png: Новый хеш: 364fd1ea4062ef11cf78152fc855aab5cfb5322d
+2025-07-13 12:27:02,679 - INFO -   public/images/items/Cash_Grocery_WeaponGem_0044.png: Новый хеш: a953d56b5dac347280fbf017b13d5e8b895ca19b
+2025-07-13 12:27:02,679 - INFO -   public/images/items/default.png: Новый хеш: d21366b2f5798af98f683e3c4177ea445c71f19b
+2025-07-13 12:27:02,679 - INFO -   public/images/items/Event_Grocery_Box_0405.png: Новый хеш: 92a059ed4cff2842269bc79cb73d70d59c90dfc9
+2025-07-13 12:27:02,679 - INFO -   public/images/items/Event_Grocery_Box_0407.png: Новый хеш: 11a91086074007be126ea515fc15c4016528e6ce
+2025-07-13 12:27:02,679 - INFO -   public/images/items/Event_Grocery_Coin_0129.png: Новый хеш: 2bc7159910daef95b9f219cbab0bee41a8415174
+2025-07-13 12:27:02,680 - INFO -   public/images/items/Hammer_of_CrocodileSharkC.png: Новый хеш: f7ec2c31133e77f4ae5cc56ab15844e84e14f92b
+2025-07-13 12:27:02,680 - INFO -   public/images/items/NPC_Transparent_Gauntlet.png: Новый хеш: 48d13c7428881b59e937df10d13218c178452cb1
+2025-07-13 12:27:02,680 - INFO -   public/images/items/Start_zone_Aura-bangle.png: Новый хеш: f485b0dab7ee886317d54e302bc5baa8aedea8e4
+2025-07-13 12:27:02,680 - INFO -   public/images/items/Start_zone_Ax.png: Новый хеш: a5b3127dd5b246850e3e98ff94092cd84ef107bd
+2025-07-13 12:27:02,680 - INFO -   public/images/items/Start_zone_Dagger.png: Новый хеш: 9a022081541763411332a89c435d2b73400636cf
+2025-07-13 12:27:02,681 - INFO -   public/images/items/Start_zone_Gauntlet.png: Новый хеш: ec3c4dbc1eb5cf087a77829a9c672d1b1b1d0a39
+2025-07-13 12:27:02,681 - INFO -   public/images/items/Start_zone_Staff.png: Новый хеш: b472f2ea0f3f9ed40ff339230f40fd4dbee12119
+2025-07-13 12:27:02,681 - INFO -   public/images/items/Start_zone_Sword.png: Новый хеш: a66a0abfc74b069bea15991f7138a928f70482a8
+2025-07-13 12:27:02,681 - INFO -   public/images/items/testItem.png: Новый хеш: 363f00768f8a3a74f771a03393a58efb4bb6def6
+2025-07-13 12:27:02,681 - INFO -   public/images/items/Weapon_SW_Legendry.png: Новый хеш: 28c2f9efae2def91ade007148f37f0c7b19f95f0
+2025-07-13 12:27:02,681 - INFO -   public/images/jobs/class-icons-assassin.png: Новый хеш: a82dbb41ec32fdc4c823997118b554c6fc398e38
+2025-07-13 12:27:02,682 - INFO -   public/images/jobs/class-icons-astromancer.png: Новый хеш: 95ecb37ed851d5b4baa15cf24f46726cd7440d6a
+2025-07-13 12:27:02,682 - INFO -   public/images/jobs/class-icons-bladedancer.png: Новый хеш: 61ba24206fc9ea5871d77f35ed5ab7c8cd73bcf0
+2025-07-13 12:27:02,682 - INFO -   public/images/jobs/class-icons-blademaster.png: Новый хеш: 8a56342361e01ac23f49b9eb4f6af6cc556f62a7
+2025-07-13 12:27:02,682 - INFO -   public/images/jobs/class-icons-destroyer.png: Новый хеш: 36c9503eded83d44135be713694b84950cf79fd5
+2025-07-13 12:27:02,682 - INFO -   public/images/jobs/class-icons-dualblade.png: Новый хеш: 2efe883a18ab02dbdfb6b3f4aaeaa44112edfda6
+2025-07-13 12:27:02,683 - INFO -   public/images/jobs/class-icons-forcemaster.png: Новый хеш: 61432e88d611a719d204a7692fb8a82178b12a0c
+2025-07-13 12:27:02,683 - INFO -   public/images/jobs/class-icons-gunslinger.png: Новый хеш: 89e6cd458d699d3a629f9b306241d76e240da82c
+2025-07-13 12:27:02,683 - INFO -   public/images/jobs/class-icons-kungfumaster.png: Новый хеш: ebade83475b644dcc16bea650385eaeb1d046684
+2025-07-13 12:27:02,683 - INFO -   public/images/jobs/class-icons-soulfighter.png: Новый хеш: d8177849f5cfc4c3f664e18c0a57c484b2715fff
+2025-07-13 12:27:02,683 - INFO -   public/images/jobs/class-icons-summoner.png: Новый хеш: afcdc7d86cc8b278dde7e2ef960bc231d0adfa25
+2025-07-13 12:27:02,684 - INFO -   public/images/jobs/class-icons-warden.png: Новый хеш: 82fc438b8331435e54d70192c021b4db17fe36be
+2025-07-13 12:27:02,684 - INFO -   public/images/jobs/class-icons-warlock.png: Новый хеш: 5044124df6346b151484119d5858629f7654464e
+2025-07-13 12:27:02,684 - INFO -   public/images/jobs/class-icons-zenarcher.png: Новый хеш: c6b1fa467cf0c8854cf7012fdad0b0360835b914
+2025-07-13 12:27:02,684 - INFO -   public/images/logo/logo-bns.webp: Новый хеш: a82f2b7a2614e94cc9f4bb1ddb10ba1540bac12b
+2025-07-13 12:27:02,684 - INFO -   public/images/logo/logo.webp: Новый хеш: b17fb7569c647768c5b15dd01ce39209f2968218
+2025-07-13 12:27:02,685 - INFO -   public/images/money/copper.png: Новый хеш: 83acad6c0c90ef8dc569ef2781bf2dc703a8c2c0
+2025-07-13 12:27:02,685 - INFO -   public/images/money/gold.png: Новый хеш: bcb0cf3d7a6ea2fb8874cd17e5a47e491f009bb2
+2025-07-13 12:27:02,685 - INFO -   public/images/money/NCoin.webp: Новый хеш: 498573400c36f542494459c6273d356d66202c28
+2025-07-13 12:27:02,685 - INFO -   public/images/money/silver.png: Новый хеш: 457bc83bd7729e10b8319e27ae23d597c5dde311
+2025-07-13 12:27:02,685 - INFO -   public/images/races/race-feng.png: Новый хеш: 39f606581635e5532dbcb5a8d3b7cd58d9659fe0
+2025-07-13 12:27:02,686 - INFO -   public/images/races/race-lin.png: Новый хеш: 81ab580b8ba1bd660dccddadbfe4fa2034ece4f5
+2025-07-13 12:27:02,686 - INFO -   public/images/races/race-sheng.png: Новый хеш: 0f7f97fb366e24ba0a08dd86b079035b6d601536
+2025-07-13 12:27:02,686 - INFO -   public/images/races/race-wan.png: Новый хеш: 51a52d6ef6d2ca9d92e291fc2949de5b0bfd1db9
+2025-07-13 12:27:02,686 - INFO -   public/images/sex/female.png: Новый хеш: 29752d279584002605a89184e501ed6c8b0150d3
+2025-07-13 12:27:02,686 - INFO -   public/images/sex/male.png: Новый хеш: 032f0107d2a2ec6214076348b62559d8fdc6102f
+2025-07-13 12:27:02,687 - INFO -   public/images/sex/unknown.png: Новый хеш: 8a65630e22cd54eb116a88851f6150e2339f7628
+2025-07-13 12:27:02,687 - INFO -   public/images/shop/no-vip.png: Новый хеш: a9f04b7fdc385cb78cc84ce39bde9cdc9abe9d2a
+2025-07-13 12:27:02,687 - INFO -   public/images/shop/vip-active.png: Новый хеш: 5577d5d34e332e6bda6928d5029bc6faa541ccf4
+2025-07-13 12:27:02,687 - INFO -   public/images/slide/index.webp: Новый хеш: 37da49474cf2ad25f9cced9073e3b288c244182d
+2025-07-13 12:27:02,687 - INFO -   public/images/slide/index_10.webp: Новый хеш: 86433be38473ca23888e5abee44daae4ec2289d6
+2025-07-13 12:27:02,688 - INFO -   public/images/slide/index_11.webp: Новый хеш: 326282dfcbc146325606e281534534e11515aad9
+2025-07-13 12:27:02,688 - INFO -   public/images/slide/index_2.webp: Новый хеш: 4228a4f4e8f5ff6ef7f9cfa7d7044bb516e8813e
+2025-07-13 12:27:02,688 - INFO -   public/images/slide/index_3.webp: Новый хеш: 033083baf1401ab07d119a4a6154cbfd02821a98
+2025-07-13 12:27:02,688 - INFO -   public/images/slide/index_4.webp: Новый хеш: b7e6ba3cde3cc71460c7686166dbc25e479378b5
+2025-07-13 12:27:02,688 - INFO -   public/images/slide/index_5.webp: Новый хеш: 83768986591109814ce8bfc9e962c71c03613642
+2025-07-13 12:27:02,689 - INFO -   public/images/slide/index_6.webp: Новый хеш: a68b336d2546c190b0ea6cdf30d7391187a73d1c
+2025-07-13 12:27:02,689 - INFO -   public/images/slide/index_7.webp: Новый хеш: 450c77586c4dbaa6042c6fc385ec9f24f8b9acce
+2025-07-13 12:27:02,689 - INFO -   public/images/slide/index_8.webp: Новый хеш: 5432c85f23a9e75da59ac1a870a361ffc53ec56c
+2025-07-13 12:27:02,689 - INFO -   public/images/slide/index_9.webp: Новый хеш: 7bc00d90c4a933d03ed594f7caab6eb0ba400ce8
+2025-07-13 12:27:02,689 - INFO -   public/images/star/star-empty.png: Новый хеш: 14ca24b2504bae85b4444fdde54d99d6752f46ca
+2025-07-13 12:27:02,689 - INFO -   public/images/star/star-filled.png: Новый хеш: a9c6f1ceaed53170226738bbe42a0ebfaf5952e1
+2025-07-13 12:27:02,689 - INFO -   public/js/admin-api-config.js: Новый хеш: c48d51ff4bd0251aecc6e7073021292651b462c7
+2025-07-13 12:27:02,690 - INFO -   public/js/admin-ban.js: Новый хеш: f0bc794abe6165b591dff5c998d74ecf4432bb00
+2025-07-13 12:27:02,690 - INFO -   public/js/admin-deposits.js: Новый хеш: 0908bcf2a62d24ecf814ef07b4be9e7f39110d38
+2025-07-13 12:27:02,690 - INFO -   public/js/admin-donate.js: Новый хеш: ab614969272a8e63c0ec7648c23686bb35477eaf
+2025-07-13 12:27:02,690 - INFO -   public/js/admin-edit-character.js: Новый хеш: a4e4be6e5e0c179222176ec7917c0d7289061084
+2025-07-13 12:27:02,690 - INFO -   public/js/admin-edit-news.js: Новый хеш: 73793ce99a5d15f1baa4b2b447099e6987a60edb
+2025-07-13 12:27:02,691 - INFO -   public/js/admin-game-stats.js: Новый хеш: 5771b6ead4a77e8cb77922bdd4d76340a0f5cd72
+2025-07-13 12:27:02,691 - INFO -   public/js/admin-game-world.js: Новый хеш: 7e93d1685bc432e30707b1277b02d90f44931701
+2025-07-13 12:27:02,691 - INFO -   public/js/admin-login.js: Новый хеш: 803ba9340164ccc0f11a7d8807d2e600c589ecf4
+2025-07-13 12:27:02,691 - INFO -   public/js/admin-monitoring.js: Новый хеш: 41ea885ede229a8f11fdea37fc6b95fa744b69f3
+2025-07-13 12:27:02,691 - INFO -   public/js/admin-processes.js: Новый хеш: 35bd313e3bd3be60a34d2a7725323aee4e3aec94
+2025-07-13 12:27:02,691 - INFO -   public/js/admin-promotions.js: Новый хеш: 6ac32189141864eb52b46d1ec38d26506c47e856
+2025-07-13 12:27:02,691 - INFO -   public/js/admin-styles.js: Новый хеш: 760ad185a3ee3e75d773dc40e3b9307ef3c3e59e
+2025-07-13 12:27:02,693 - INFO -   public/js/admin-system-stats.js: Новый хеш: 3ebad0decf343a7a33f208aa0463b4aa605610bc
+2025-07-13 12:27:02,693 - INFO -   public/js/admin-update-checker.js: Новый хеш: 7e9084f968b9d71470bfa7ee569a26bf86c2e46c
+2025-07-13 12:27:02,693 - INFO -   public/js/admin-vip.js: Новый хеш: ec9756a8e5d1490f429d4030cdfd08743d05f176
+2025-07-13 12:27:02,693 - INFO -   public/js/admin-warehouseItem.js: Новый хеш: 39be7376473bc6dd266dc03a580e61222b8ae78c
+2025-07-13 12:27:02,693 - INFO -   public/js/banAlert.js: Новый хеш: 094c3ff932ce17bf88ac7b56e56e4a7539c6e7e8
+2025-07-13 12:27:02,694 - INFO -   public/js/donateShop.js: Новый хеш: 3bd789070129e4adc673b9ebabe2136ecb117a89
+2025-07-13 12:27:02,694 - INFO -   public/js/main.js: Новый хеш: 50c9fc872df9888340ee38164e63f0e54c4c12c2
+2025-07-13 12:27:02,694 - INFO -   public/js/main.min.js: Новый хеш: 32f3f8252c241d563e81e945c4975e1dd972f894
+2025-07-13 12:27:02,694 - INFO -   public/js/navbar.js: Новый хеш: 464fccd7288051ef5871ec76140c55539e0dbf84
+2025-07-13 12:27:02,694 - INFO -   public/js/navbar.min.js: Новый хеш: f6aeb5e351bb6c939941d092df8aa253df5530f8
+2025-07-13 12:27:02,695 - INFO -   public/js/preloader.js: Новый хеш: 3f40463163600c58f182283b0a5b3d953afb46c1
+2025-07-13 12:27:02,695 - INFO -   public/js/profile.js: Новый хеш: 4c9f11f14c5fb1531bdcbae5cabc935077f08b1a
+2025-07-13 12:27:02,695 - INFO -   public/js/signup.js: Новый хеш: 00b0c53f12d0e233ae3f0cc1a995f2e975e023a0
+2025-07-13 12:27:02,695 - INFO -   public/media/trailer.mp4: Новый хеш: faa173a6cd0757f2f3f113f3a3d116c11db1aa99
+2025-07-13 12:27:02,696 - INFO -   public/webfonts/fa-brands-400.ttf: Новый хеш: 7ce89c71d5a51ac65b159c71422783dd86529c66
+2025-07-13 12:27:02,696 - INFO -   public/webfonts/fa-brands-400.woff2: Новый хеш: e948290773216dc1b50c2121314a8cf918c22b54
+2025-07-13 12:27:02,696 - INFO -   public/webfonts/fa-regular-400.ttf: Новый хеш: 775e2ecfc18d22b177274453d4c014ca6be63208
+2025-07-13 12:27:02,696 - INFO -   public/webfonts/fa-regular-400.woff2: Новый хеш: 46e272db3db1072791628679bc469112c8e41017
+2025-07-13 12:27:02,696 - INFO -   public/webfonts/fa-solid-900.ttf: Новый хеш: 2b8e11389d98122399667cf64941eb58497dc128
+2025-07-13 12:27:02,697 - INFO -   public/webfonts/fa-solid-900.woff2: Новый хеш: 69335cd6a6ac82253ea5545899cccde35af39131
+2025-07-13 12:27:02,697 - INFO -   public/webfonts/fa-v4compatibility.ttf: Новый хеш: bd27e43f3d1e5019faaabc9ec6c5d3d7c5f100ef
+2025-07-13 12:27:02,697 - INFO -   public/webfonts/fa-v4compatibility.woff2: Новый хеш: 87d0bbc38baa356297521c41ed8ca7d78e8d16e2
+2025-07-13 12:27:02,697 - INFO -   routes/addBanRoutes.js: Новый хеш: f78bacd28d95c10db2b35a1bb51240eb64fc5c24
+2025-07-13 12:27:02,697 - INFO -   routes/addDepositRoutes.js: Новый хеш: bc2482fae0ef7e46a110380f80b408cfacf6eeb6
+2025-07-13 12:27:02,698 - INFO -   routes/adminApiConfigRoutes.js: Новый хеш: 36efb3fe6b3a80afe9b877e7bc243278a1e16d3b
+2025-07-13 12:27:02,698 - INFO -   routes/adminNewsRoutes.js: Новый хеш: a4544ef9e952d4211b447e32dc01fb94f536c8e8
+2025-07-13 12:27:02,698 - INFO -   routes/adminRoutes.js: Новый хеш: 93b95d1c81aba452647a281e3d9f64dbd127d2c3
+2025-07-13 12:27:02,698 - INFO -   routes/checkAvailability.js: Новый хеш: 11e299703d98c652f893746e38cb0d62407ad737
+2025-07-13 12:27:02,698 - INFO -   routes/donateRoutes.js: Новый хеш: 8337c32862fc26728cb50cd446e2921e400f5082
+2025-07-13 12:27:02,699 - INFO -   routes/editCharacterRoutes.js: Новый хеш: e7c843064f97a76e4699194b0783b6c93ef7727a
+2025-07-13 12:27:02,699 - INFO -   routes/fileExplorerRoutes.js: Новый хеш: d2597ddadd46fdabdd14aa6af865d3ad53ba3fe0
+2025-07-13 12:27:02,699 - INFO -   routes/gameStatsRoute.js: Новый хеш: db8fcf316abcb73f891710036f2f4045e9454772
+2025-07-13 12:27:02,699 - INFO -   routes/gameWorldRoutes.js: Новый хеш: 7b5757d0493f6f66eb430c53717db970e1cc0dc4
+2025-07-13 12:27:02,699 - INFO -   routes/GradeMembersRoutes.js: Новый хеш: de927064ebc93842c4b9813961985d99217c89af
+2025-07-13 12:27:02,700 - INFO -   routes/kickUserRouter.js: Новый хеш: 552d0c505e3a7378cb29c6b5b2208c6c9e5826c8
+2025-07-13 12:27:02,700 - INFO -   routes/monitoringRoutes.js: Новый хеш: bc1dc61eaaa1ae7fac7be73d3df4096c08e6e13a
+2025-07-13 12:27:02,700 - INFO -   routes/pageRoutes.js: Новый хеш: e87a93af7f60ef5f8d78652c867b1c58ff26c0a7
+2025-07-13 12:27:02,700 - INFO -   routes/processManagerRoutes.js: Новый хеш: 487df0c3274002b64be7166292b5b2cedd75efe0
+2025-07-13 12:27:02,700 - INFO -   routes/profileRoutes.js: Новый хеш: 93a45ea5197ee450f44ca5ff6cf3f4980afeae1d
+2025-07-13 12:27:02,701 - INFO -   routes/routePromotionStamp.js: Новый хеш: acfceebb3a791699ee9ac9389ff0ab00f62de155
+2025-07-13 12:27:02,701 - INFO -   routes/serverRestartRoute.js: Новый хеш: 1547f1d767cd3e391c9cb3ba0a0d2fa8f5332893
+2025-07-13 12:27:02,701 - INFO -   routes/signinRoutes.js: Новый хеш: 574e6f0c8ed00f78633632753b4563c050b078bc
+2025-07-13 12:27:02,701 - INFO -   routes/signupRoutes.js: Новый хеш: 5175541bf7b96685f2a863278c31fd7edaefa0b9
+2025-07-13 12:27:02,701 - INFO -   routes/systemStatsRoutes.js: Новый хеш: dd3eb58254fb2b8f9916dc0775f860c327dd9cf9
+2025-07-13 12:27:02,701 - INFO -   routes/updateCheckerRoutes.js: Новый хеш: 16006c5c62c1a527a18aa55288372f7c39a85836
+2025-07-13 12:27:02,702 - INFO -   routes/updateRoutes.js: Новый хеш: 7b92f6a141db54dc86547a123d7126374aee362e
+2025-07-13 12:27:02,702 - INFO -   routes/WarehouseItemRoutes.js: Новый хеш: f923aae4aef80501bcead29941cf406682550a16
+2025-07-13 12:27:02,702 - INFO -   utils/characterUtils.js: Новый хеш: eee74a4a1f9f7d08bc0b9f170080bbaee33aad4f
+2025-07-13 12:27:02,702 - INFO -   utils/configManager.js: Новый хеш: 59c9466f9ab8c5ac209577dfc274a9cb8bbceb12
+2025-07-13 12:27:02,702 - INFO -   utils/dataTransformations.js: Новый хеш: 226692319e1780c6029c9c5ccc0e34e09b9f0fef
+2025-07-13 12:27:02,703 - INFO -   utils/discordBot.js: Новый хеш: 49392604e07851f1d5912eb7a6f112737118c22c
+2025-07-13 12:27:02,703 - INFO -   utils/fileExplorer.js: Новый хеш: 2c25eab2ec0630611533eab1c367e390c9eacc6f
+2025-07-13 12:27:02,703 - INFO -   utils/logger.js: Новый хеш: 67d578d83df4097ea0cc8a1a41347ae4611c3776
+2025-07-13 12:27:02,703 - INFO -   utils/logUtils.js: Новый хеш: f121a55e8afe69a6d96522e7ae62db7e4ea3fcc1
+2025-07-13 12:27:02,703 - INFO -   utils/pathStorage.js: Новый хеш: c2c7d64b0c623735938e806db08fa76d6e76483c
+2025-07-13 12:27:02,704 - INFO -   utils/processManager.js: Новый хеш: 106214ed36fcbba1d42b48b4cedfd0a747bca073
+2025-07-13 12:27:02,704 - INFO -   utils/serverInfo.js: Новый хеш: 59c0f7f24a80997a0796ceda09ee15aa573106f0
+2025-07-13 12:27:02,704 - INFO -   utils/serverManager.js: Новый хеш: 57ca5a669b09f162448f53dac9405f9d7edb8dcd
+2025-07-13 12:27:02,704 - INFO -   views/404.ejs: Новый хеш: fbf48eab0d8b110af77c0c7f6b498f916e7911b0
+2025-07-13 12:27:02,704 - INFO -   views/addBan.ejs: Новый хеш: 978c1f34b84f242821eebc0fb722617e6f062f64
+2025-07-13 12:27:02,705 - INFO -   views/addDeposit.ejs: Новый хеш: e70f691f1655f87f0bb8aa530bde226b1cc83dd8
+2025-07-13 12:27:02,705 - INFO -   views/addVip.ejs: Новый хеш: 4c54b5ee3a373e12db3890c43cc0308bb037cf3f
+2025-07-13 12:27:02,705 - INFO -   views/admin.ejs: Новый хеш: 05a1dd9fa288fa597ff93d310af4449f69e57c39
+2025-07-13 12:27:02,705 - INFO -   views/adminDonate.ejs: Новый хеш: 0f114a4f237bb5a522860763c40f9080ba74da93
+2025-07-13 12:27:02,705 - INFO -   views/adminLogin.ejs: Новый хеш: 9d14b577c421374b88944fab653c1c8a11e13e1c
+2025-07-13 12:27:02,706 - INFO -   views/configApi.ejs: Новый хеш: e386185af8cfdc58448ceed423545b0d40532387
+2025-07-13 12:27:02,706 - INFO -   views/donateShop.ejs: Новый хеш: 486c6c711d681187190bfd194796b28e28da73b8
+2025-07-13 12:27:02,706 - INFO -   views/edit-character.ejs: Новый хеш: 9c0955ba8fd1ce2bd8bf409277e52e0dd6488617
+2025-07-13 12:27:02,706 - INFO -   views/editNews.ejs: Новый хеш: 3be97f03ae33f0a0e074854f1ae2638645d58f01
+2025-07-13 12:27:02,706 - INFO -   views/error.ejs: Новый хеш: cadc9e7a5978ec8d9f949f6441a10101d42cb9e0
+2025-07-13 12:27:02,707 - INFO -   views/gameStats.ejs: Новый хеш: cc4bbe03fb8cc27a82e95037470e99c86989bfe7
+2025-07-13 12:27:02,707 - INFO -   views/gameWorld.ejs: Новый хеш: 815859e8aad5b1b190f1696a7fc643ff4aaa26bb
+2025-07-13 12:27:02,707 - INFO -   views/index.ejs: Новый хеш: a1f8860d16c3309f24c48b6552c3d1bf18d2e4aa
+2025-07-13 12:27:02,707 - INFO -   views/monitoring.ejs: Новый хеш: fa097cd4a322f09d235e44f60475ee53625f5f96
+2025-07-13 12:27:02,707 - INFO -   views/processes.ejs: Новый хеш: 914733e8e54c7cfce7351c4d857e3f646797e340
+2025-07-13 12:27:02,708 - INFO -   views/profile.ejs: Новый хеш: f386bb62ea6513acf607d8839fde6e6ee73fc3c7
+2025-07-13 12:27:02,708 - INFO -   views/promotions.ejs: Новый хеш: cfd42d6e200a03fd20127ded9e8d79fed15722a9
+2025-07-13 12:27:02,708 - INFO -   views/systemStats.ejs: Новый хеш: 34076420e1ce69984d0cd460fbeb5a8613c8337a
+2025-07-13 12:27:02,708 - INFO -   views/updateChecker.ejs: Новый хеш: e06e0f93ca2c7263c04a00bbfe2fc61667aa1cc2
+2025-07-13 12:27:02,708 - INFO -   views/warehouseItem.ejs: Новый хеш: cfdc058c97a7b91dd2f8193b299e141c62a8cec3
+2025-07-13 12:27:02,709 - INFO -   views/partials/about-game.ejs: Новый хеш: 8c9f5979665c1cf6899383dd52639273fc1aa4f7
+2025-07-13 12:27:02,709 - INFO -   views/partials/adminFooter.ejs: Новый хеш: 7e898453668694c702dc5ccde0d88c44ab2a0cfa
+2025-07-13 12:27:02,709 - INFO -   views/partials/adminInfoModal.ejs: Новый хеш: 770ab118b230c7aa7347182980be0119db2f0f89
+2025-07-13 12:27:02,709 - INFO -   views/partials/banInfoModal.ejs: Новый хеш: 47cd84ea0cd1a3f7a7116b675eb56c0cfe40375b
+2025-07-13 12:27:02,709 - INFO -   views/partials/carousel.ejs: Новый хеш: e95ad960d1f22d48f5d80eb2038219990c3401fa
+2025-07-13 12:27:02,709 - INFO -   views/partials/characterInfoModal.ejs: Новый хеш: 91991cb657c67c68de9d45ff9f8769f959d4b80e
+2025-07-13 12:27:02,709 - INFO -   views/partials/class-modal.ejs: Новый хеш: 3e361b9b220eb923837deb176c1e13fab8e99443
+2025-07-13 12:27:02,710 - INFO -   views/partials/depositInfoModal.ejs: Новый хеш: 22b5143feb0fe20f3739ff965229f88153dddc29
+2025-07-13 12:27:02,710 - INFO -   views/partials/discordBotModal.ejs: Новый хеш: 81abaac92cd89d4a097ddf08f588aaa2b57af0eb
+2025-07-13 12:27:02,710 - INFO -   views/partials/donateInfoModal.ejs: Новый хеш: 85134b92aa20fddb7cf9b418b4f43ed6225ac7d0
+2025-07-13 12:27:02,710 - INFO -   views/partials/events.ejs: Новый хеш: 48ff3b41a98fb996b4220f51a8b95192ebec63e9
+2025-07-13 12:27:02,710 - INFO -   views/partials/game-classes.ejs: Новый хеш: a31e124c35c3b8b42f8f447c7851f3fb07f09cca
+2025-07-13 12:27:02,711 - INFO -   views/partials/game-features.ejs: Новый хеш: 3f1adc904fa88c2192dcc0a3eb56e3a9ef723fbd
+2025-07-13 12:27:02,711 - INFO -   views/partials/gameWorldInfoModal.ejs: Новый хеш: 8a34e9d11b49609ee67b1b439d6522a0ee46d7b0
+2025-07-13 12:27:02,711 - INFO -   views/partials/hero.ejs: Новый хеш: 2e7d1cd0bc901bb3ef227cf179aad8cb229a752b
+2025-07-13 12:27:02,711 - INFO -   views/partials/monitoringRawModal.ejs: Новый хеш: 918bcfad52557ce67e0efa64802eede0e4bdf501
+2025-07-13 12:27:02,711 - INFO -   views/partials/nav.ejs: Новый хеш: 940316b58c3b8df0cdde3a085efa23bf1908ab27
+2025-07-13 12:27:02,712 - INFO -   views/partials/navbar.ejs: Новый хеш: 6b70acd83247991d95cdaf870d11b3c0837e43f5
+2025-07-13 12:27:02,712 - INFO -   views/partials/overview.ejs: Новый хеш: 1fd72f85222d90241f09868bf723144a15297d6c
+2025-07-13 12:27:02,712 - INFO -   views/partials/processInfoModal.ejs: Новый хеш: 6d316025e9955cae9013475147a86cfd6a67aeb0
+2025-07-13 12:27:02,712 - INFO -   views/partials/promoInfoModal.ejs: Новый хеш: 548fb68d03b8ee75d63e01f693446086ec5d9de2
+2025-07-13 12:27:02,712 - INFO -   views/partials/promoMobileRow.ejs: Новый хеш: e86b3c351c8d095fd0290dd97718bf1ee041fb02
+2025-07-13 12:27:02,713 - INFO -   views/partials/signinModal.ejs: Новый хеш: 7272b65722de48f8fca532d355c4e4a392e31237
+2025-07-13 12:27:02,713 - INFO -   views/partials/signupModal.ejs: Новый хеш: 51616427c29052d5f6e89de6d5936be89a568aba
+2025-07-13 12:27:02,713 - INFO -   views/partials/system-requirements.ejs: Новый хеш: 03c69c2d34038f6b8e851accd7f95625b6ed21e8
+2025-07-13 12:27:02,713 - INFO -   views/partials/updateBackupCheckerModal.ejs: Новый хеш: cdadcd3a0f5452259252ebf01a95ca63fa9ae64d
+2025-07-13 12:27:02,713 - INFO -   views/partials/updateInfoModal.ejs: Новый хеш: 0ddd7fd01adb3df693d8bb35eac359a47c81d8ee
+2025-07-13 12:27:02,714 - INFO -   views/partials/vipInfoModal.ejs: Новый хеш: c62c12e3b31b717fee097bee292bb90c3294c7ed
+2025-07-13 12:27:02,714 - INFO -   views/partials/warehouseInfoModal.ejs: Новый хеш: e8bdc0c5c20f869b1d80db932ceff8a0b0784554
+2025-07-13 12:27:02,716 - INFO - Манифест успешно создан.
+Новый хеш: a2e559b61a7605ebc8544b26d154ea23fce3df5c
+  Install.bat: Новый хеш: 6ba9e8801f7c95444cd5fb7e56672de921f08aa5
+  LICENSE: Новый хеш: bc3e14d982962220d3d9fb1ec8ad8cfaab2c07ce
+  README.md: Новый хеш: 605f24d91245325d4807dc14da0a440496540324
+  ServerApi.js: Новый хеш: 113ae7df9a1d8172a4627c0b1c51a7552530653f
+  update.md: Новый хеш: d293782053caf4f196a9b81ea686ee59f1960960
+  bns-patch/READMI.md: Новый хеш: dbee0350ff45b2914abf9e5574f5c09d7cbc2c51
+  bns-patch/READMI.txt: Новый хеш: d46f4acae97e900e3dc0ae38673cfc76739055d8
+  bns-patch/Version.ini: Новый хеш: f0e9296540d6e76109b77169521a9c15cbf3716d
+  config/avatars.json: Новый хеш: bf21a9e8fbc5a3846fb05b4fa0859e0917b2202f
+  config/config.js: Новый хеш: 4c4b6dcd215b96af0dd92619a870837479660a69
+  config/dbConfig.js: Новый хеш: 1ebda4108d47c40ddab44e6759b795ed90d58607
+  DB/DonationsDb.bak: Новый хеш: 5135d0be124097f27061cfcaddf1b26a3df528ee
+  DB/GameItemsDB.bak: Новый хеш: 497be5db8abd9a8ac8243a883b6aba3f6e1b7613
+  DB/README.md: Новый хеш: 168511a7df385a6199c7d3b176322afd16b8cc9a
+  DB/restore_databases.sql: Новый хеш: 40f825e848728c7a78ae1c7fb346fb5a11628c2c
+  DB/update_gameitems_filenames.sql: Новый хеш: e3164d60ba02e84f32e390102bea489a7d4e4c12
+  middleware/adminMiddleware.js: Новый хеш: 2f2b337ded2ceccf6e107b7d50633f7aee321bdd
+  public/css/404.css: Новый хеш: 99abe1749707d5774e09ac7381a8e8ee700299a6
+  public/css/admin-deposits.css: Новый хеш: c96213375a0a271103532c1610b59ba7447c16c3
+  public/css/admin-edit-character.css: Новый хеш: b8b7a64053df71fc8d1ee09b74d7163881f9708d
+  public/css/admin-edit-news.css: Новый хеш: 7b0584a8cbe907a9da41ae9fa267f1f6ffadda01
+  public/css/admin-game-stats.css: Новый хеш: 9094b2d418759544f59e44acfa0ce160d79829e0
+  public/css/admin-login.css: Новый хеш: eeea23b613087c3e47b0ba7c103b45d9ff32a445
+  public/css/admin-processes.css: Новый хеш: 7df00929653f6176088eec17234e4fbea994ec87
+  public/css/admin-promotions.css: Новый хеш: d73486d24ec265c3d078d7bc582805d87edf02c2
+  public/css/admin-styles.css: Новый хеш: 695cf250bb50b2e5ec78b97aa85e52ef8f30d8f8
+  public/css/admin-system-stats.css: Новый хеш: 6df6a72cca30d5647171d1589b270e4ea432319a
+  public/css/admin-update-checke.css: Новый хеш: dde4ccf1d75d9d76fc408644390b7a7877151825
+  public/css/admin-warehouseItem.css: Новый хеш: 0d8eafce4bb07ec67e80e149e701e832cf3b45f4
+  public/css/donateshop.css: Новый хеш: ea0327511a3cc60dd5c6e08c86e45c774557e345
+  public/css/error.css: Новый хеш: cdd3d2bc861c4c94fbb56efec006689887dbe2ad
+  public/css/navbar.css: Новый хеш: a03498033f627ac7f6f29917b80fd3a6dcd91ea3
+  public/css/preloader.css: Новый хеш: dbb52baae8de1ebdfc34a0f019e5be0031dc7882
+  public/css/profile.css: Новый хеш: df2dda379b501d61b56061d8f8b476be49622d21
+  public/css/styles.css: Новый хеш: b67972d6cecbafb77de1c687b4cb209c932b6164
+  public/fonts/BakaExpert.ttf: Новый хеш: ca97f3b159adce71b097dd4a339ebe54782723a4
+  public/fonts/Lakeshore-Regular.ttf: Новый хеш: a89cce60788135ffa418953f489b6a62afe018a5
+  public/fonts/Lakeshore-Regular.woff: Новый хеш: aa9d39d095e7f18219308d8be274b912845af086
+  public/fonts/Lakeshore-Regular.woff2: Новый хеш: 5a6d71f0d6240b7054a46722afdae76e3d2b02c8
+  public/fonts/pxiByp8kv8JHgFVrLEj6Z1JlFc-K.woff2: Новый хеш: af18a91dc2757b12651ba59d06fd0cfa536ba8db
+  public/fonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2: Новый хеш: 6cd63d09cc1f526aba20b654ef5b55f8104586c6
+  public/images/favicon-admin.png: Новый хеш: d098b515b7bd409a61076088a467d755f5fd7f97
+  public/images/favicon.png: Новый хеш: 9244efcbb04d8ab99eadccade69ce501bc4c28a5
+  public/images/shop_images.zip: Новый хеш: fbe8f87b7536ba54c5c59be89a3feddfb442b28d
+  public/images/avatars/profile12.png: Новый хеш: 8af9c358645ee0af763c0ef1e0695be7d7f1c3de
+  public/images/avatars/profile21.png: Новый хеш: 69e299cf285d53c52b2718ec364c8268a692cdc7
+  public/images/avatars/profile22.png: Новый хеш: 188bbe7712f1504765b3412222de15715535c928
+  public/images/avatars/profile31.png: Новый хеш: 3bfca643f760e08ac4a7b552bd245c5e7bca0774
+  public/images/avatars/profile32.png: Новый хеш: cfdc6e50898dad13ec6255428fa6b9db2a1a61ee
+  public/images/avatars/profile41.png: Новый хеш: 243a764b298b7dbcb7a32f606b886db764b17591
+  public/images/avatars/profile42.png: Новый хеш: 5ec75b9588e55194ac8a49c1bd068d25bd474ea7
+  public/images/avatars/profile51.png: Новый хеш: c4fb70c1701fb39b61f558631569151c2a0c4ce3
+  public/images/avatars/profile52.png: Новый хеш: b3586c6531c6b328412af2411af257171ac2f93c
+  public/images/avatars/profile61.png: Новый хеш: 1fa50be38e358f8464a9f90a4a8ee822f31971ae
+  public/images/avatars/profile62.png: Новый хеш: 7c156474db3f7310b8fa203d90b10ffa3281155f
+  public/images/avatars/profile71.png: Новый хеш: 1c7d23d047a4bab5ea32a05c3dfd67db4944d22e
+  public/images/avatars/profile72.png: Новый хеш: 8c6197b30fbe0150c5cda1f705f12cd78e0fb506
+  public/images/avatars/profile81.png: Новый хеш: a40f9cd4114c6ed001630aea35ef0a54552091b4
+  public/images/avatars/profile82.png: Новый хеш: 1d876c855781086f9b0747c84ba8635cdc07f441
+  public/images/avatars/profile91.png: Новый хеш: bf1fb1a3e4343fe77400f63d13b1f3a062ee5d44
+  public/images/avatars/user-avatar.gif: Новый хеш: 9c793b516c3ab021c627478795fdd4233fcd81a4
+  public/images/backgrounds/banned.webp: Новый хеш: 1773fa0676842b59fac672ae837767dff1656ab6
+  public/images/backgrounds/confetti.gif: Новый хеш: 149f5a03f0a2c1117fb3830f4df4c371e52d0387
+  public/images/backgrounds/features-bg.webp: Новый хеш: 3670386c9b0ca3095ba81c8a3d9314e48d905fbe
+  public/images/backgrounds/home-style-bg.webp: Новый хеш: 77c0d2549c6bbfc1e3b385176af7c49e73676ceb
+  public/images/backgrounds/video-bg.webp: Новый хеш: 5cf1f6f28fd6c7d38987b74b512c04831d588b3a
+  public/images/button/button-play-sprite.webp: Новый хеш: 3fc3c1ad36f2779179047cfcdd99baa09c653b10
+  public/images/button/button_signup.webp: Новый хеш: df52d01b3c1795bb5373ef8d574dcd0503633ead
+  public/images/button/button_signup_smal.webp: Новый хеш: d497777be764261c62b75a47264678531fc15acd
+  public/images/button/close-modal.webp: Новый хеш: 237edeb691a96959e5f5c90881f5ae6a5b2ec6f4
+  public/images/button/devtracker_loading.png: Новый хеш: d78c89cb6205868251432b4f05c528270f51b543
+  public/images/classes/assasin.webp: Новый хеш: 0c47031e0bbc093229a3cd427722c2c7d3a4137e
+  public/images/classes/assasin1.webp: Новый хеш: aa7a24b130d7c2c787e6892d6b4eb6662795b039
+  public/images/classes/astromancer.webp: Новый хеш: be53c2bf3be46af0aa408bf070b64630fad1a0da
+  public/images/classes/bladedancer.webp: Новый хеш: 5339b0604eb692d66890a1f8b214ea4a228c114f
+  public/images/classes/blademaster.webp: Новый хеш: 0c8a27e6dc56b3c5ce32db622ad739f2c9a7bb49
+  public/images/classes/class-icons-assassin.png: Новый хеш: 44b9dc5939c9697b64023bb4c326b9cbde1c4418
+  public/images/classes/class-icons-astromancer.png: Новый хеш: ca73358feaf4ef0eaa4eedba2a5742ac6c96aaee
+  public/images/classes/class-icons-bladedancer.png: Новый хеш: 6bbd8d34b237d476db5ec658e98203b48f3b06b2
+  public/images/classes/class-icons-blademaster.png: Новый хеш: 94d763b12f6c6fc865250921a0971465d9e5f805
+  public/images/classes/class-icons-destroyer.png: Новый хеш: 694cdb3957dae5d09e034a1805e59a182767c85d
+  public/images/classes/class-icons-dualblade.png: Новый хеш: b0cb00da164d71438353f98787484ca1b761489e
+  public/images/classes/class-icons-forcemaster.png: Новый хеш: 8532590508f682a4c9571bb6e57e9808503bac23
+  public/images/classes/class-icons-gunslinger.png: Новый хеш: 1c4efb3e18931be3d52bb58171c95c340b7f7f8a
+  public/images/classes/class-icons-kungfumaster.png: Новый хеш: 850c74b90a33a97b7e5dfd980c55441249e4740b
+  public/images/classes/class-icons-soulfighter.png: Новый хеш: 9761a8c660d7ce7886d72bf5504411208fa3fc53
+  public/images/classes/class-icons-summoner.png: Новый хеш: c058d8c7fdee8913381c82a06efaad5c60fbd194
+  public/images/classes/class-icons-warden.png: Новый хеш: 447312a6a2548d469c1260502305f6a71fd04396
+  public/images/classes/class-icons-warlock.png: Новый хеш: 9ecdb81828bd255b947d035b3fae872b874f5a47
+  public/images/classes/class-icons-zenarcher.png: Новый хеш: 0663db54bc8be7dcf74e00cccd8b39251a626a79
+  public/images/classes/destroyer.webp: Новый хеш: 77f7f6f65f8e468cb2c5e33f559b94f9cd8904f6
+  public/images/classes/dualblade.webp: Новый хеш: 07f81b7d2ee9de24b559f9322f7d77b37b36b4ea
+  public/images/classes/forcemaster.webp: Новый хеш: ff011c1f6803f4da7ffb66f9c0b4eaead21bd1db
+  public/images/classes/gunslinger.webp: Новый хеш: 6b60c3264285c90b8c73df05c3da06ecb55df155
+  public/images/classes/kungfumaster.webp: Новый хеш: 5abfd20c8a4673d9e8e978796c2e1e3c57b980fe
+  public/images/classes/soulfighter.webp: Новый хеш: 46a141a92a56734e86fef87cdaf583683ecbf2d1
+  public/images/classes/summoner.webp: Новый хеш: c87255b58d673b500aeed8ea7e6a5fa73e5819d6
+  public/images/classes/summoner1.webp: Новый хеш: e2e8eaa17d4568e90b8b2f2a4b6414e777f79be4
+  public/images/classes/warden.webp: Новый хеш: 4afe442ecfe4a33c93854325d98c8a3324e676fb
+  public/images/classes/warlock.webp: Новый хеш: 84b3ac345983a75d971073d38c8e79d21dcbe43a
+  public/images/classes/zenarcher.webp: Новый хеш: b573147e3259d89e3b1dc1e689f4c14cd44f25c5
+  public/images/donations/a015e27aca315b27b989426b57e38de2: Новый хеш: 1618800ce53bd44cff6946f52f8ab92621d53010
+  public/images/donations/image-1749919131755-127069936.png: Новый хеш: 1618800ce53bd44cff6946f52f8ab92621d53010
+  public/images/donations/image-1749927533552-66750310.png: Новый хеш: 7394fb0f0b4f3307e9e65f3fc28da57bc8d0ae49
+  public/images/donations/image-1749932159254-886662666.png: Новый хеш: 804c8fbaab319d214f5193b91b9ac60c9ee24231
+  public/images/donations/image-1749932249951-932119964.png: Новый хеш: 7d4aeec112b7feb4ea5f7aa624ba909e3bfd83fd
+  public/images/donations/image-1752168594708-237531213.png: Новый хеш: 7394fb0f0b4f3307e9e65f3fc28da57bc8d0ae49
+  public/images/donations/image-1752339965058-166710632.png: Новый хеш: 1618800ce53bd44cff6946f52f8ab92621d53010
+  public/images/donations/image-1752339975703-630276030.png: Новый хеш: 7394fb0f0b4f3307e9e65f3fc28da57bc8d0ae49
+  public/images/donations/image-1752339989506-116508911.png: Новый хеш: f0ea2f2ac8e9f034b497f37c5ecc2c1daddbd7f5
+  public/images/donations/image-1752339996063-588574668.png: Новый хеш: db99772e22e8256da3ac65f159fcaa262c73464b
+  public/images/donations/image-1752340003123-228904211.png: Новый хеш: 8712220bd8d0f53f2dc6e54e0fccb67d0e7f56d6
+  public/images/donations/image-1752340012021-877250349.png: Новый хеш: 9684de3dca6ff1c40e7521944163a2a34eaee29c
+  public/images/donations/image-1752340022882-997181910.png: Новый хеш: 5b6645b980792218c7387b129e6a30e80a5afe56
+  public/images/faction/Cerulean_order_logo.webp: Новый хеш: 25f9f961e1b9e71448647466e435570b1c6ddd3a
+  public/images/faction/Crimson_legion_logo.webp: Новый хеш: d4ca41e60c9969e2b6c8c852524078d1f016321f
+  public/images/items/Cash_Grocery_Coin_0025.png: Новый хеш: 1000086002d847cc6df064793829acd6784d73c2
+  public/images/items/Cash_Grocery_Coupon_0001.png: Новый хеш: 6e5229b1e7bad205f95d729d988e8a92da49f8c5
+  public/images/items/Cash_Grocery_Coupon_0002.png: Новый хеш: e888ba79dc1c50da141c5137031826bf5130cfff
+  public/images/items/Cash_Grocery_Coupon_0003.png: Новый хеш: cd6d2aeef97989ad58729c879f99cb959f031446
+  public/images/items/Cash_Grocery_Coupon_0004.png: Новый хеш: 2f505bf260c6d6d558154afcc0eaad5c3acc0322
+  public/images/items/Cash_Grocery_Coupon_0009.png: Новый хеш: 44af8213db16cebbff2e11ab0ca4796cda69d173
+  public/images/items/Cash_Grocery_Coupon_0011.png: Новый хеш: e94ea78aec53a4f1b6c14fd34f9db7608534c3b0
+  public/images/items/Cash_Grocery_Coupon_0012.png: Новый хеш: 12df126f426572fa63ed003276638154f9f67973
+  public/images/items/Cash_Grocery_GoodsStore_Coin_0001.png: Новый хеш: 19f78dcaa4f1513f40280809431c0743601399e0
+  public/images/items/Cash_Grocery_Messenger_0002.png: Новый хеш: 364fd1ea4062ef11cf78152fc855aab5cfb5322d
+  public/images/items/Cash_Grocery_WeaponGem_0044.png: Новый хеш: a953d56b5dac347280fbf017b13d5e8b895ca19b
+  public/images/items/default.png: Новый хеш: d21366b2f5798af98f683e3c4177ea445c71f19b
+  public/images/items/Event_Grocery_Box_0405.png: Новый хеш: 92a059ed4cff2842269bc79cb73d70d59c90dfc9
+  public/images/items/Event_Grocery_Box_0407.png: Новый хеш: 11a91086074007be126ea515fc15c4016528e6ce
+  public/images/items/Event_Grocery_Coin_0129.png: Новый хеш: 2bc7159910daef95b9f219cbab0bee41a8415174
+  public/images/items/Hammer_of_CrocodileSharkC.png: Новый хеш: f7ec2c31133e77f4ae5cc56ab15844e84e14f92b
+  public/images/items/NPC_Transparent_Gauntlet.png: Новый хеш: 48d13c7428881b59e937df10d13218c178452cb1
+  public/images/items/Start_zone_Aura-bangle.png: Новый хеш: f485b0dab7ee886317d54e302bc5baa8aedea8e4
+  public/images/items/Start_zone_Ax.png: Новый хеш: a5b3127dd5b246850e3e98ff94092cd84ef107bd
+  public/images/items/Start_zone_Dagger.png: Новый хеш: 9a022081541763411332a89c435d2b73400636cf
+  public/images/items/Start_zone_Gauntlet.png: Новый хеш: ec3c4dbc1eb5cf087a77829a9c672d1b1b1d0a39
+  public/images/items/Start_zone_Staff.png: Новый хеш: b472f2ea0f3f9ed40ff339230f40fd4dbee12119
+  public/images/items/Start_zone_Sword.png: Новый хеш: a66a0abfc74b069bea15991f7138a928f70482a8
+  public/images/items/testItem.png: Новый хеш: 363f00768f8a3a74f771a03393a58efb4bb6def6
+  public/images/items/Weapon_SW_Legendry.png: Новый хеш: 28c2f9efae2def91ade007148f37f0c7b19f95f0
+  public/images/jobs/class-icons-assassin.png: Новый хеш: a82dbb41ec32fdc4c823997118b554c6fc398e38
+  public/images/jobs/class-icons-astromancer.png: Новый хеш: 95ecb37ed851d5b4baa15cf24f46726cd7440d6a
+  public/images/jobs/class-icons-bladedancer.png: Новый хеш: 61ba24206fc9ea5871d77f35ed5ab7c8cd73bcf0
+  public/images/jobs/class-icons-blademaster.png: Новый хеш: 8a56342361e01ac23f49b9eb4f6af6cc556f62a7
+  public/images/jobs/class-icons-destroyer.png: Новый хеш: 36c9503eded83d44135be713694b84950cf79fd5
+  public/images/jobs/class-icons-dualblade.png: Новый хеш: 2efe883a18ab02dbdfb6b3f4aaeaa44112edfda6
+  public/images/jobs/class-icons-forcemaster.png: Новый хеш: 61432e88d611a719d204a7692fb8a82178b12a0c
+  public/images/jobs/class-icons-gunslinger.png: Новый хеш: 89e6cd458d699d3a629f9b306241d76e240da82c
+  public/images/jobs/class-icons-kungfumaster.png: Новый хеш: ebade83475b644dcc16bea650385eaeb1d046684
+  public/images/jobs/class-icons-soulfighter.png: Новый хеш: d8177849f5cfc4c3f664e18c0a57c484b2715fff
+  public/images/jobs/class-icons-summoner.png: Новый хеш: afcdc7d86cc8b278dde7e2ef960bc231d0adfa25
+  public/images/jobs/class-icons-warden.png: Новый хеш: 82fc438b8331435e54d70192c021b4db17fe36be
+  public/images/jobs/class-icons-warlock.png: Новый хеш: 5044124df6346b151484119d5858629f7654464e
+  public/images/jobs/class-icons-zenarcher.png: Новый хеш: c6b1fa467cf0c8854cf7012fdad0b0360835b914
+  public/images/logo/logo-bns.webp: Новый хеш: a82f2b7a2614e94cc9f4bb1ddb10ba1540bac12b
+  public/images/logo/logo.webp: Новый хеш: b17fb7569c647768c5b15dd01ce39209f2968218
+  public/images/money/copper.png: Новый хеш: 83acad6c0c90ef8dc569ef2781bf2dc703a8c2c0
+  public/images/money/gold.png: Новый хеш: bcb0cf3d7a6ea2fb8874cd17e5a47e491f009bb2
+  public/images/money/NCoin.webp: Новый хеш: 498573400c36f542494459c6273d356d66202c28
+  public/images/money/silver.png: Новый хеш: 457bc83bd7729e10b8319e27ae23d597c5dde311
+  public/images/races/race-feng.png: Новый хеш: 39f606581635e5532dbcb5a8d3b7cd58d9659fe0
+  public/images/races/race-lin.png: Новый хеш: 81ab580b8ba1bd660dccddadbfe4fa2034ece4f5
+  public/images/races/race-sheng.png: Новый хеш: 0f7f97fb366e24ba0a08dd86b079035b6d601536
+  public/images/races/race-wan.png: Новый хеш: 51a52d6ef6d2ca9d92e291fc2949de5b0bfd1db9
+  public/images/sex/female.png: Новый хеш: 29752d279584002605a89184e501ed6c8b0150d3
+  public/images/sex/male.png: Новый хеш: 032f0107d2a2ec6214076348b62559d8fdc6102f
+  public/images/sex/unknown.png: Новый хеш: 8a65630e22cd54eb116a88851f6150e2339f7628
+  public/images/shop/no-vip.png: Новый хеш: a9f04b7fdc385cb78cc84ce39bde9cdc9abe9d2a
+  public/images/shop/vip-active.png: Новый хеш: 5577d5d34e332e6bda6928d5029bc6faa541ccf4
+  public/images/slide/index.webp: Новый хеш: 37da49474cf2ad25f9cced9073e3b288c244182d
+  public/images/slide/index_10.webp: Новый хеш: 86433be38473ca23888e5abee44daae4ec2289d6
+  public/images/slide/index_11.webp: Новый хеш: 326282dfcbc146325606e281534534e11515aad9
+  public/images/slide/index_2.webp: Новый хеш: 4228a4f4e8f5ff6ef7f9cfa7d7044bb516e8813e
+  public/images/slide/index_3.webp: Новый хеш: 033083baf1401ab07d119a4a6154cbfd02821a98
+  public/images/slide/index_4.webp: Новый хеш: b7e6ba3cde3cc71460c7686166dbc25e479378b5
+  public/images/slide/index_5.webp: Новый хеш: 83768986591109814ce8bfc9e962c71c03613642
+  public/images/slide/index_6.webp: Новый хеш: a68b336d2546c190b0ea6cdf30d7391187a73d1c
+  public/images/slide/index_7.webp: Новый хеш: 450c77586c4dbaa6042c6fc385ec9f24f8b9acce
+  public/images/slide/index_8.webp: Новый хеш: 5432c85f23a9e75da59ac1a870a361ffc53ec56c
+  public/images/slide/index_9.webp: Новый хеш: 7bc00d90c4a933d03ed594f7caab6eb0ba400ce8
+  public/images/star/star-empty.png: Новый хеш: 14ca24b2504bae85b4444fdde54d99d6752f46ca
+  public/images/star/star-filled.png: Новый хеш: a9c6f1ceaed53170226738bbe42a0ebfaf5952e1
+  public/js/admin-api-config.js: Новый хеш: c48d51ff4bd0251aecc6e7073021292651b462c7
+  public/js/admin-ban.js: Новый хеш: f0bc794abe6165b591dff5c998d74ecf4432bb00
+  public/js/admin-deposits.js: Новый хеш: 0908bcf2a62d24ecf814ef07b4be9e7f39110d38
+  public/js/admin-donate.js: Новый хеш: ab614969272a8e63c0ec7648c23686bb35477eaf
+  public/js/admin-edit-character.js: Новый хеш: a4e4be6e5e0c179222176ec7917c0d7289061084
+  public/js/admin-edit-news.js: Новый хеш: 73793ce99a5d15f1baa4b2b447099e6987a60edb
+  public/js/admin-game-stats.js: Новый хеш: 5771b6ead4a77e8cb77922bdd4d76340a0f5cd72
+  public/js/admin-game-world.js: Новый хеш: 7e93d1685bc432e30707b1277b02d90f44931701
+  public/js/admin-login.js: Новый хеш: 803ba9340164ccc0f11a7d8807d2e600c589ecf4
+  public/js/admin-monitoring.js: Новый хеш: 41ea885ede229a8f11fdea37fc6b95fa744b69f3
+  public/js/admin-processes.js: Новый хеш: 35bd313e3bd3be60a34d2a7725323aee4e3aec94
+  public/js/admin-promotions.js: Новый хеш: 6ac32189141864eb52b46d1ec38d26506c47e856
+  public/js/admin-styles.js: Новый хеш: 760ad185a3ee3e75d773dc40e3b9307ef3c3e59e
+  public/js/admin-system-stats.js: Новый хеш: 3ebad0decf343a7a33f208aa0463b4aa605610bc
+  public/js/admin-update-checker.js: Новый хеш: 7e9084f968b9d71470bfa7ee569a26bf86c2e46c
+  public/js/admin-vip.js: Новый хеш: ec9756a8e5d1490f429d4030cdfd08743d05f176
+  public/js/admin-warehouseItem.js: Новый хеш: 39be7376473bc6dd266dc03a580e61222b8ae78c
+  public/js/banAlert.js: Новый хеш: 094c3ff932ce17bf88ac7b56e56e4a7539c6e7e8
+  public/js/donateShop.js: Новый хеш: 3bd789070129e4adc673b9ebabe2136ecb117a89
+  public/js/main.js: Новый хеш: 50c9fc872df9888340ee38164e63f0e54c4c12c2
+  public/js/main.min.js: Новый хеш: 32f3f8252c241d563e81e945c4975e1dd972f894
+  public/js/navbar.js: Новый хеш: 464fccd7288051ef5871ec76140c55539e0dbf84
+  public/js/navbar.min.js: Новый хеш: f6aeb5e351bb6c939941d092df8aa253df5530f8
+  public/js/preloader.js: Новый хеш: 3f40463163600c58f182283b0a5b3d953afb46c1
+  public/js/profile.js: Новый хеш: 4c9f11f14c5fb1531bdcbae5cabc935077f08b1a
+  public/js/signup.js: Новый хеш: 00b0c53f12d0e233ae3f0cc1a995f2e975e023a0
+  public/media/trailer.mp4: Новый хеш: faa173a6cd0757f2f3f113f3a3d116c11db1aa99
+  public/webfonts/fa-brands-400.ttf: Новый хеш: 7ce89c71d5a51ac65b159c71422783dd86529c66
+  public/webfonts/fa-brands-400.woff2: Новый хеш: e948290773216dc1b50c2121314a8cf918c22b54
+  public/webfonts/fa-regular-400.ttf: Новый хеш: 775e2ecfc18d22b177274453d4c014ca6be63208
+  public/webfonts/fa-regular-400.woff2: Новый хеш: 46e272db3db1072791628679bc469112c8e41017
+  public/webfonts/fa-solid-900.ttf: Новый хеш: 2b8e11389d98122399667cf64941eb58497dc128
+  public/webfonts/fa-solid-900.woff2: Новый хеш: 69335cd6a6ac82253ea5545899cccde35af39131
+  public/webfonts/fa-v4compatibility.ttf: Новый хеш: bd27e43f3d1e5019faaabc9ec6c5d3d7c5f100ef
+  public/webfonts/fa-v4compatibility.woff2: Новый хеш: 87d0bbc38baa356297521c41ed8ca7d78e8d16e2
+  routes/addBanRoutes.js: Новый хеш: f78bacd28d95c10db2b35a1bb51240eb64fc5c24
+  routes/addDepositRoutes.js: Новый хеш: bc2482fae0ef7e46a110380f80b408cfacf6eeb6
+  routes/adminApiConfigRoutes.js: Новый хеш: 36efb3fe6b3a80afe9b877e7bc243278a1e16d3b
+  routes/adminNewsRoutes.js: Новый хеш: a4544ef9e952d4211b447e32dc01fb94f536c8e8
+  routes/adminRoutes.js: Новый хеш: 93b95d1c81aba452647a281e3d9f64dbd127d2c3
+  routes/checkAvailability.js: Новый хеш: 11e299703d98c652f893746e38cb0d62407ad737
+  routes/donateRoutes.js: Новый хеш: 8337c32862fc26728cb50cd446e2921e400f5082
+  routes/editCharacterRoutes.js: Новый хеш: e7c843064f97a76e4699194b0783b6c93ef7727a
+  routes/fileExplorerRoutes.js: Новый хеш: d2597ddadd46fdabdd14aa6af865d3ad53ba3fe0
+  routes/gameStatsRoute.js: Новый хеш: db8fcf316abcb73f891710036f2f4045e9454772
+  routes/gameWorldRoutes.js: Новый хеш: 7b5757d0493f6f66eb430c53717db970e1cc0dc4
+  routes/GradeMembersRoutes.js: Новый хеш: de927064ebc93842c4b9813961985d99217c89af
+  routes/kickUserRouter.js: Новый хеш: 552d0c505e3a7378cb29c6b5b2208c6c9e5826c8
+  routes/monitoringRoutes.js: Новый хеш: bc1dc61eaaa1ae7fac7be73d3df4096c08e6e13a
+  routes/pageRoutes.js: Новый хеш: e87a93af7f60ef5f8d78652c867b1c58ff26c0a7
+  routes/processManagerRoutes.js: Новый хеш: 487df0c3274002b64be7166292b5b2cedd75efe0
+  routes/profileRoutes.js: Новый хеш: 93a45ea5197ee450f44ca5ff6cf3f4980afeae1d
+  routes/routePromotionStamp.js: Новый хеш: acfceebb3a791699ee9ac9389ff0ab00f62de155
+  routes/serverRestartRoute.js: Новый хеш: 1547f1d767cd3e391c9cb3ba0a0d2fa8f5332893
+  routes/signinRoutes.js: Новый хеш: 574e6f0c8ed00f78633632753b4563c050b078bc
+  routes/signupRoutes.js: Новый хеш: 5175541bf7b96685f2a863278c31fd7edaefa0b9
+  routes/systemStatsRoutes.js: Новый хеш: dd3eb58254fb2b8f9916dc0775f860c327dd9cf9
+  routes/updateCheckerRoutes.js: Новый хеш: 16006c5c62c1a527a18aa55288372f7c39a85836
+  routes/updateRoutes.js: Новый хеш: 7b92f6a141db54dc86547a123d7126374aee362e
+  routes/WarehouseItemRoutes.js: Новый хеш: f923aae4aef80501bcead29941cf406682550a16
+  utils/characterUtils.js: Новый хеш: eee74a4a1f9f7d08bc0b9f170080bbaee33aad4f
+  utils/configManager.js: Новый хеш: 59c9466f9ab8c5ac209577dfc274a9cb8bbceb12
+  utils/dataTransformations.js: Новый хеш: 226692319e1780c6029c9c5ccc0e34e09b9f0fef
+  utils/discordBot.js: Новый хеш: 49392604e07851f1d5912eb7a6f112737118c22c
+  utils/fileExplorer.js: Новый хеш: 2c25eab2ec0630611533eab1c367e390c9eacc6f
+  utils/logger.js: Новый хеш: 67d578d83df4097ea0cc8a1a41347ae4611c3776
+  utils/logUtils.js: Новый хеш: f121a55e8afe69a6d96522e7ae62db7e4ea3fcc1
+  utils/pathStorage.js: Новый хеш: c2c7d64b0c623735938e806db08fa76d6e76483c
+  utils/processManager.js: Новый хеш: 106214ed36fcbba1d42b48b4cedfd0a747bca073
+  utils/serverInfo.js: Новый хеш: 59c0f7f24a80997a0796ceda09ee15aa573106f0
+  utils/serverManager.js: Новый хеш: 57ca5a669b09f162448f53dac9405f9d7edb8dcd
+  views/404.ejs: Новый хеш: fbf48eab0d8b110af77c0c7f6b498f916e7911b0
+  views/addBan.ejs: Новый хеш: 978c1f34b84f242821eebc0fb722617e6f062f64
+  views/addDeposit.ejs: Новый хеш: e70f691f1655f87f0bb8aa530bde226b1cc83dd8
+  views/addVip.ejs: Новый хеш: 4c54b5ee3a373e12db3890c43cc0308bb037cf3f
+  views/admin.ejs: Новый хеш: 05a1dd9fa288fa597ff93d310af4449f69e57c39
+  views/adminDonate.ejs: Новый хеш: 0f114a4f237bb5a522860763c40f9080ba74da93
+  views/adminLogin.ejs: Новый хеш: 9d14b577c421374b88944fab653c1c8a11e13e1c
+  views/configApi.ejs: Новый хеш: e386185af8cfdc58448ceed423545b0d40532387
+  views/donateShop.ejs: Новый хеш: 486c6c711d681187190bfd194796b28e28da73b8
+  views/edit-character.ejs: Новый хеш: 9c0955ba8fd1ce2bd8bf409277e52e0dd6488617
+  views/editNews.ejs: Новый хеш: 3be97f03ae33f0a0e074854f1ae2638645d58f01
+  views/error.ejs: Новый хеш: cadc9e7a5978ec8d9f949f6441a10101d42cb9e0
+  views/gameStats.ejs: Новый хеш: cc4bbe03fb8cc27a82e95037470e99c86989bfe7
+  views/gameWorld.ejs: Новый хеш: 815859e8aad5b1b190f1696a7fc643ff4aaa26bb
+  views/index.ejs: Новый хеш: a1f8860d16c3309f24c48b6552c3d1bf18d2e4aa
+  views/monitoring.ejs: Новый хеш: fa097cd4a322f09d235e44f60475ee53625f5f96
+  views/processes.ejs: Новый хеш: 914733e8e54c7cfce7351c4d857e3f646797e340
+  views/profile.ejs: Новый хеш: f386bb62ea6513acf607d8839fde6e6ee73fc3c7
+  views/promotions.ejs: Новый хеш: cfd42d6e200a03fd20127ded9e8d79fed15722a9
+  views/systemStats.ejs: Новый хеш: 34076420e1ce69984d0cd460fbeb5a8613c8337a
+  views/updateChecker.ejs: Новый хеш: e06e0f93ca2c7263c04a00bbfe2fc61667aa1cc2
+  views/warehouseItem.ejs: Новый хеш: cfdc058c97a7b91dd2f8193b299e141c62a8cec3
+  views/partials/about-game.ejs: Новый хеш: 8c9f5979665c1cf6899383dd52639273fc1aa4f7
+  views/partials/adminFooter.ejs: Новый хеш: 7e898453668694c702dc5ccde0d88c44ab2a0cfa
+  views/partials/adminInfoModal.ejs: Новый хеш: 770ab118b230c7aa7347182980be0119db2f0f89
+  views/partials/banInfoModal.ejs: Новый хеш: 47cd84ea0cd1a3f7a7116b675eb56c0cfe40375b
+  views/partials/carousel.ejs: Новый хеш: e95ad960d1f22d48f5d80eb2038219990c3401fa
+  views/partials/characterInfoModal.ejs: Новый хеш: 91991cb657c67c68de9d45ff9f8769f959d4b80e
+  views/partials/class-modal.ejs: Новый хеш: 3e361b9b220eb923837deb176c1e13fab8e99443
+  views/partials/depositInfoModal.ejs: Новый хеш: 22b5143feb0fe20f3739ff965229f88153dddc29
+  views/partials/discordBotModal.ejs: Новый хеш: 81abaac92cd89d4a097ddf08f588aaa2b57af0eb
+  views/partials/donateInfoModal.ejs: Новый хеш: 85134b92aa20fddb7cf9b418b4f43ed6225ac7d0
+  views/partials/events.ejs: Новый хеш: 48ff3b41a98fb996b4220f51a8b95192ebec63e9
+  views/partials/game-classes.ejs: Новый хеш: a31e124c35c3b8b42f8f447c7851f3fb07f09cca
+  views/partials/game-features.ejs: Новый хеш: 3f1adc904fa88c2192dcc0a3eb56e3a9ef723fbd
+  views/partials/gameWorldInfoModal.ejs: Новый хеш: 8a34e9d11b49609ee67b1b439d6522a0ee46d7b0
+  views/partials/hero.ejs: Новый хеш: 2e7d1cd0bc901bb3ef227cf179aad8cb229a752b
+  views/partials/monitoringRawModal.ejs: Новый хеш: 918bcfad52557ce67e0efa64802eede0e4bdf501
+  views/partials/nav.ejs: Новый хеш: 940316b58c3b8df0cdde3a085efa23bf1908ab27
+  views/partials/navbar.ejs: Новый хеш: 6b70acd83247991d95cdaf870d11b3c0837e43f5
+  views/partials/overview.ejs: Новый хеш: 1fd72f85222d90241f09868bf723144a15297d6c
+  views/partials/processInfoModal.ejs: Новый хеш: 6d316025e9955cae9013475147a86cfd6a67aeb0
+  views/partials/promoInfoModal.ejs: Новый хеш: 548fb68d03b8ee75d63e01f693446086ec5d9de2
+  views/partials/promoMobileRow.ejs: Новый хеш: e86b3c351c8d095fd0290dd97718bf1ee041fb02
+  views/partials/signinModal.ejs: Новый хеш: 7272b65722de48f8fca532d355c4e4a392e31237
+  views/partials/signupModal.ejs: Новый хеш: 51616427c29052d5f6e89de6d5936be89a568aba
+  views/partials/system-requirements.ejs: Новый хеш: 03c69c2d34038f6b8e851accd7f95625b6ed21e8
+  views/partials/updateBackupCheckerModal.ejs: Новый хеш: cdadcd3a0f5452259252ebf01a95ca63fa9ae64d
+  views/partials/updateInfoModal.ejs: Новый хеш: 0ddd7fd01adb3df693d8bb35eac359a47c81d8ee
+  views/partials/vipInfoModal.ejs: Новый хеш: c62c12e3b31b717fee097bee292bb90c3294c7ed
+  views/partials/warehouseInfoModal.ejs: Новый хеш: e8bdc0c5c20f869b1d80db932ceff8a0b0784554

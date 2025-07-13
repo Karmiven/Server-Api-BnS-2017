@@ -5,27 +5,23 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Blade & Soul</title>
       <link rel="icon" href="images/favicon.png" type="image/png">
-      <!-- Общие стили -->
       <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link rel="stylesheet" href="/css/styles.min.css">
-      <link rel="stylesheet" href="/css/navbar.min.css">
-      <link rel="stylesheet" href="/css/all.min.css">
-      <link rel="stylesheet" href="/css/toast.css">
-      <!-- Подключение изображений для предварительной загрузки -->
+      <link rel="stylesheet" href="/node_modules/sweetalert2/dist/sweetalert2.min.css">
+      <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+      <link rel="stylesheet" href="/css/styles.css">
+      <link rel="stylesheet" href="/css/navbar.css">
       <link rel="preload" as="image" href="/images/slide/index.webp">
       <link rel="preload" as="image" href="/images/logo/logo-bns.webp">
-	  <link rel="preload" as="image" href="/images/logo/logo.webp">
+      <link rel="preload" as="image" href="/images/logo/logo.webp">
       <link rel="preload" href="/fonts/Lakeshore-Regular.woff2" as="font" type="font/ttf" crossorigin="anonymous">
       <link rel="preload" href="/fonts/pxiEyp8kv8JHgFVrJJnecmNE.woff2" as="font" type="font/woff2" crossorigin="anonymous">
    </head>
    <body>
-   <div id="preloader">
-    <div class="bns"></div>
-   </div>
-
+      <div id="preloader">
+         <div class="bns"></div>
+      </div>
       <!-- Навигация -->
       <%- include('partials/navbar') %>
-
       <!-- Основные секции -->
       <%- include('partials/carousel') %>
       <%- include('partials/about-game') %>
@@ -34,7 +30,7 @@
          <%- include('partials/events') %>
          <style>
             .carousel-control-prev, .carousel-control-next {
-               display: none;
+            display: none;
             }
          </style>
       </div>
@@ -43,13 +39,11 @@
       <%- include('partials/class-modal') %>
       <%- include('partials/system-requirements') %>
       <%- include('partials/overview') %>
-
       <!-- Footer -->
       <footer class="custom-footer text-light text-center py-3">
          <p class="mb-0">&copy; 2024 Blade & Soul: Private Server</p>
          <p class="mb-0">All rights reserved.</p>
       </footer>
-
       <!-- Модальные окна и сообщения -->
       <%- include('partials/signupModal') %>
       <%- include('partials/signinModal') %>
@@ -57,11 +51,10 @@
       <div id="success-message" class="success-message d-none"></div>
       <div id="congratulations-message" class="congratulations-message"></div>
       <div class="toast-container position-fixed top-0 end-0 p-3"></div>
-
       <!-- Общие скрипты -->
-</script>
-      <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script> <!-- Bootstrap с Popper.js -->
-	  <script src="js/navbar.min.js"></script>
+      </script>
+      <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/navbar.min.js"></script>
       <script src="js/signup.js"></script>
       <script src="js/main.min.js"></script>
    </body>

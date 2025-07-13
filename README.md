@@ -7,70 +7,106 @@ This repository contains the backend API server for the **Blade & Soul** private
 
 This API server has been tested on a private Blade & Soul test server.
 
-![Server Api B&S Server](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/0-1.png)
+![Server Api B&S Server](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/0-1.png)
 
 <details>
 <summary>Click to see more screenshots</summary>
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/0-2.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/0-2.png)
 
 </details>
 
 <details>
 <summary>Click to explore website screenshots</summary>
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/full_page_screen.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/full_page_screen.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/site-01.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/site-01.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/site-02.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/site-02.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/site-03.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/site-03.png)
 
 </details>
 
 <details>
 <summary>Click to view more screenshots of the Admin Panel</summary>
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/admin-00.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-00.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/admin-01.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-01.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/admin-02.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-02.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/admin-003.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-003.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/admin-03.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-03.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/admin-04.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-04.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/admin-05.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-05.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/admin-06.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-06.png)
 
 <hr style="border: 1px solid #ccc; margin: 10px 0;">
 
-![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-Server/main/screen/admin-07.png)
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-07.png)
+
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-08.png)
+
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-09.png)
+
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-10.png)
+
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-11.png)
+
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-12.png)
+
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-13.png)
+
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-14.png)
+
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-15.png)
+
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/admin-16.png)
 
 </details>
 
@@ -96,16 +132,20 @@ This API server has been tested on a private Blade & Soul test server.
 - **Character Management**: Tools for editing character details like faction, race, job, and other attributes.
 - **Virtual Currency Transactions**: APIs to manage and add in-game currency to user accounts.
 - **Item Management and Distribution**: Search the database for items by ItemID and dispatch them to user account characters via the admin panel.
-- **"Account Banning and Player Kicking**: Ability to impose a temporary or permanent account ban on a user, as well as the ability to promptly kick a player from the server.
-- **VIP Privileges Managementn**: Effortlessly manage and assign VIP privileges to users through the admin panel. This feature allows administrators to grant special in-game benefits and access to premium content, ensuring an enhanced experience for VIP players.
-- **Game Server Monitoring**: Real-time server monitoring that provides detailed insights into the number of players online, and their activity. This feature enables administrators to track server health,and monitor player.
+- **Account Banning and Player Kicking**: Ability to impose a temporary or permanent account ban on a user, as well as the ability to promptly kick a player from the server.
+- **VIP Privileges Management**: Effortlessly manage and assign VIP privileges to users through the admin panel. This feature allows administrators to grant special in-game benefits and access to premium content, ensuring an enhanced experience for VIP players.
+- **Game Server Monitoring**: Real-time server monitoring that provides detailed insights into the number of players online, and their activity. This feature enables administrators to track server health, and monitor player.
 - **Game Server Statistics**: Game statistics with insightful charts displaying the number of registered accounts, including breakdowns by character races, genders, classes, factions, and levels.
 - **Database Integration**: Utilizes Microsoft SQL Server for managing user accounts, in-game data, and virtual currencies.
 - **Logging**: Optional logging feature, controlled through environment variables, allows detailed logging to console for debugging and monitoring.
 - **Scalability**: Designed to support a large number of users and database operations, ensuring performance and security for a Blade & Soul private server.
 - **System Statistics**: Monitor CPU Usage, Memory Usage, and Server API Process Information to assess server load and performance in real time, helping ensure smooth operation and quick issue resolution.
-- **Donation-Based Store**: Users can acquire Velirs through donations, accessible via the "Donations" tab in their profile. Administrators can manage Velirs in the store via the admin panel. Payment processing is not integrated by default—administrators must set up their own payment system.
-- **Update Management for B&S Server API**: Administrators can now check for updates directly from the project's GitHub repository, download the latest versions, and install them automatically, ensuring the server stays up-to-date with minimal effort.
+- **API Configuration Management**: Real-time administration of `.env` parameters via the web interface, including sections for Server Configuration, Database Configurations, and Registration Logs, with automatic backup on changes and API server restart capability.
+- **Server Process Management**: Ability to start, stop, and monitor server daemons and background processes directly from the admin panel.
+- **News Management**: Integrated news editor module for creating, editing, and publishing news content on the main website page through the admin interface.
+- **Promotions Management**: Control over in-game promotional events such as the Daily Dash login reward, with options for manual activation and automatic renewal.
+- **Discord Integration**: Automated Discord bot support sending periodic server monitoring data to designated channels and supporting the `/online` chat command for current player counts.
+- **Contextual Information Modals**: Context-sensitive informational pop-ups on all admin panel pages for enhanced usability and guidance.
 
 ## Requirements
 
@@ -156,7 +196,9 @@ To set up the API server, follow these steps:
     - Create `Start_Api.bat` for easy server startup.
     - Create the `.env` file with essential configuration for connecting to the game databases.
     - Install the required npm packages:
-      - `express`, `mssql`, `dotenv`, `axios`, `cors`, `ejs`, `argon2`, `bcrypt`, `bootstrap`, `chalk`, `express-session`, `mysql2`, `os-utils`, `pidusage`, `xml2js`.
+      - `express`, `mssql`, `dotenv`, `axios`, `cors`, `ejs`, `argon2`, `bcrypt`, `bootstrap`, `chalk`, `express-session`, `mysql2`, `os-utils`, `pidusage`, `xml2js`, `@fortawesome/fontawesome-free`, `archiver`, `body-parser`, `bootstrap-icons`, `chart.js`, `cheerio`, `compression`, `cookie-parser`, `csurf`, `discord.js`, `express-rate-limit`, `express-validator`, `helmet`, `jquery`, `jsonwebtoken`, `marked`, `moment`, `multer`, `nodemailer`, `ps-node`, `request`, `serve-favicon`, `sweetalert2`, `tedious`, `winston`
+
+	  
 
 4. **Configuration of Categories and Display of Items in Item Management and Distribution** 
  
@@ -312,6 +354,65 @@ If you are looking for the **Blade & Soul** Game API Server for the 2020 version
 
 
 ## Additions / Fixes
+<details>
+  <summary><b>Change Log: 13/07/2025</b></summary>
+
+  > ⚠️ **Critical Update Notice**  
+  > <p style="font-weight: bold; font-style: italic; color: #FF6347;">This update introduces fundamental architectural changes across the system.  
+  > File names and folder structures have been significantly reorganized.  
+  > **It is strongly recommended to perform a clean reinstallation** by cloning the latest version directly from the official GitHub repository.  
+  > Continuing with a previously installed version may result in conflicts due to outdated or relocated files.</p>
+
+  ---
+
+  ### 1. New "API Configuration" Section
+  A new category has been added to the admin panel, allowing real-time management of `.env` parameters through the web interface. Features include:
+  - Sections: **Server Configuration**, **Database Configurations**, and **Registration Log**
+  - Automatic backup of the `.env` file upon any change
+  - Ability to restart the API server directly from the interface
+
+  ### 2. Server Processes Category
+  Provides tools for managing server-side daemons and individual background processes.  
+  Administrators can start, stop, and monitor processes via the admin panel.
+
+  ### 3. News Editor Module
+  Introduces a user-friendly editor for managing and publishing news on the website's main page.  
+  All content is controlled from the admin panel.
+
+  ### 4. Promotions System
+  Adds a system to manage promotional in-game events:
+  - Manual start/stop of the **Daily Dash** (daily login reward)
+  - Optional auto-renewal configuration
+
+  ### 5. Updated Server API Updater
+  Before applying any API updates via the web interface, the system now automatically backs up all affected files, allowing for safe rollback.
+
+  ### 6. Discord Bot Integration
+  Introduces automated integration with Discord:
+  - Periodically sends server monitoring data to a specified Discord channel (interval configurable)
+  - Supports the `/online` command in chat to view the current online player count  
+  *(Requires bot creation at [Discord Developer Portal](https://discord.com/developers/applications/))*
+
+  ### 7. Info Modals on All Pages
+  Adds context-sensitive informational modals to each admin panel page for quick reference and improved user onboarding.
+
+  ### 8. Fully Redesigned Admin Panel Interface
+  The admin UI has been completely rebuilt with:
+  - A refreshed design
+  - Improved responsiveness and performance
+  - Enhanced UX and removal of outdated components
+  
+   ### 9. Minor code tweaks and adjustments:  
+   Made small improvements and optimizations to enhance code stability and readability.
+
+  ---
+
+  ### ⚙️ Important Notes
+  - Before starting the server, run **`Install.bat`** to install dependencies and initialize the database.
+  - Restart the API server after updating to apply all changes.
+  - A clean installation is **strongly recommended** to prevent legacy file conflicts.
+</details>
+
 <details>
   <summary><b>Change Log: 14/02/2025</b></summary>
 
