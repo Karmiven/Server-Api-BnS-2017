@@ -33,6 +33,10 @@ This API server has been tested on a private Blade & Soul test server.
 
 ![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/site-03.png)
 
+<hr style="border: 1px solid #ccc; margin: 10px 0;">
+
+![2.](https://raw.githubusercontent.com/war100ck/Server-Api-BnS-2017/main/screen/site-04.png)
+
 </details>
 
 <details>
