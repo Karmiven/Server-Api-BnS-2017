@@ -311,6 +311,18 @@ echo. >> .env
 echo PROMOTION_STAMP_DB_SERVER=localhost >> .env
 echo. >> .env
 echo PROMOTION_STAMP_DB_DATABASE=PromotionStampDb >> .env
+echo. >> .env
+echo # ---------------------------- >> .env
+echo # Promotion Role Database >> .env
+echo # ---------------------------- >> .env
+echo. >> .env
+echo ROLE_DB_USER=sa >> .env
+echo. >> .env
+echo ROLE_DB_PASSWORD=FSmElsXuj3ls8Fq >> .env
+echo. >> .env
+echo ROLE_DB_SERVER=localhost >> .env
+echo. >> .env
+echo ROLE_DB_DATABASE=RoleDb >> .env
 timeout /t 1 /nobreak > NUL
 echo ===============================
 echo File creation .... completed
