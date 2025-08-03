@@ -10,10 +10,22 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
          <ul class="navbar-nav me-auto">
-            <li class="nav-item">
-               <a class="nav-link <%= pathname === '/admin' ? 'active' : '' %>" href="/admin">
+            <li class="nav-item dropdown">
+               <a class="nav-link dropdown-toggle <%= pathname === '/admin' || pathname.includes('/admin/role-management') ? 'active' : '' %>" href="#" id="dashboardDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                <i class="fas fa-tachometer-alt me-1"></i> Dashboard
                </a>
+               <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="dashboardDropdown">
+                  <li>
+                     <a class="dropdown-item <%= pathname === '/admin' ? 'active' : '' %>" href="/admin">
+                     <i class="fas fa-home me-2"></i> Main Dashboard
+                     </a>
+                  </li>
+                  <li>
+                     <a class="dropdown-item <%= pathname === '/admin/role-management/manage' ? 'active' : '' %>" href="/admin/role-management/manage">
+                     <i class="fas fa-user-shield me-2"></i> Role Management
+                     </a>
+                  </li>
+               </ul>
             </li>
             <!-- Stats Dropdown -->
             <li class="nav-item dropdown">
