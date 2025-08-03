@@ -65,6 +65,7 @@ import serverRestartRoute from './routes/serverRestartRoute.js';
 import adminNewsRoutes from './routes/adminNewsRoutes.js';
 import processManagerRoutes from './routes/processManagerRoutes.js';
 import fileExplorerRoutes from './routes/fileExplorerRoutes.js';
+import roleManagementRoutes from './routes/roleManagementRoute.js';
 
 // Специальные модули
 import discordBot from './utils/discordBot.js';
@@ -175,6 +176,7 @@ app.use(serverRestartRoute);
 app.use('/', adminNewsRoutes);
 app.use('/', processManagerRoutes);
 app.use('/', fileExplorerRoutes);
+app.use('/', roleManagementRoutes);
 
 // Middleware для добавления UserName
 app.use((req, res, next) => {

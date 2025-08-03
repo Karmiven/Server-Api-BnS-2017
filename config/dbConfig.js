@@ -255,6 +255,27 @@ const configPromotionStampDb = {
   }
 };
 
+// Настройки подключения к базе данных RoleDb
+const configRoleDb = {
+  user: process.env.ROLE_DB_USER,
+  password: process.env.ROLE_DB_PASSWORD,
+  server: process.env.ROLE_DB_SERVER,
+  database: process.env.ROLE_DB_DATABASE,
+  pool: {
+    max: 20,
+    min: 1,
+    idleTimeoutMillis: 30000
+  },
+  options: {
+    secure: true,
+    encrypt: false,
+    trustServerCertificate: true,
+    enableArithAbort: true,
+    connectTimeout: 15000,
+    requestTimeout: 15000
+  }
+};
+
 export {
   configPlatformAcctDb,
   configGradeMembersDb,
@@ -267,5 +288,6 @@ export {
   configLevelDb,
   configGameItemsDB,
   configDonationsDb,
-  configPromotionStampDb
+  configPromotionStampDb,
+  configRoleDb
 };

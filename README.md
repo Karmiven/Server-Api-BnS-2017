@@ -355,6 +355,13 @@ If you are looking for the **Blade & Soul** Game API Server for the 2020 version
 
 ## Additions / Fixes
 <details>
+  <summary><b>Change Log: 03/08/2025</b></summary>
+
+  Added new route for server role management:  
+  Implemented a REST endpoint for assigning roles to users via the API. This feature enables administrators to manage user permissions more efficiently, integrating role control directly into the admin interface.
+</details>
+
+<details>
   <summary><b>Change Log: 13/07/2025</b></summary>
 
   > ⚠️ **Critical Update Notice**  
