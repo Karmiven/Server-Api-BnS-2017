@@ -8,6 +8,7 @@
       <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
       <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
       <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+	  <link rel="stylesheet" href="/css/add-vip.css">
    </head>
    <body class="bg-light d-flex flex-column min-vh-100">
       <%- include('partials/nav') %>
@@ -80,31 +81,29 @@
                         <li>
                            <h6 class="dropdown-header">User Actions</h6>
                         </li>
-                        <li>
-                           <a class="dropdown-item py-2" href="edit-character?userId=<%= userId %>">
-                           <i class="fas fa-user-edit fa-fw me-2 text-primary"></i>Edit Character
-                           </a>
-                        </li>
-                        <li>
-                           <a class="dropdown-item py-2" href="add-deposit?userId=<%= userId %>">
-                           <i class="fas fa-coins fa-fw me-2 text-success"></i>Add Deposit
-                           </a>
-                        </li>
-                        <li>
-                           <a class="dropdown-item py-2" href="add-item?userId=<%= userId %>">
-                           <i class="fas fa-paper-plane fa-fw me-2 text-info"></i>Sending Items
-                           </a>
-                        </li>
+                        <li><a class="dropdown-item py-2" href="edit-character?userId=<%= userId %>"><i class="fas fa-user-edit fa-fw me-2 text-primary"></i>Edit Character</a></li>
+                        <li><a class="dropdown-item py-2" href="add-deposit?userId=<%= userId %>"><i class="fas fa-coins fa-fw me-2 text-success"></i>Add Deposit</a></li>
+                        <li><a class="dropdown-item py-2" href="add-item?userId=<%= userId %>"><i class="fas fa-paper-plane fa-fw me-2 text-info"></i>Sending Items</a></li>
                         <li>
                            <hr class="dropdown-divider my-1">
                         </li>
                         <li>
                            <h6 class="dropdown-header">Administration</h6>
                         </li>
-                        <li>
-                           <a class="dropdown-item py-2" href="add-ban?userId=<%= userId %>">
+                        <li class="dropdown-submenu">
+                           <a class="dropdown-item py-2 d-flex justify-content-between align-items-center" href="add-ban?userId=<%= userId %>">
+                           <span>
                            <i class="fas fa-gavel fa-fw me-2 text-danger"></i>Ban Management
+                           </span>
+                           <span class="dropdown-arrow ms-2">›</span>
                            </a>
+                           <ul class="dropdown-menu shadow-sm">
+                              <li>
+                                 <a class="dropdown-item py-2" href="block?userId=<%= userId %>">
+                                 <i class="fas fa-user-slash fa-fw me-2 text-secondary"></i>Character Block
+                                 </a>
+                              </li>
+                           </ul>
                         </li>
                      </ul>
                   </div>

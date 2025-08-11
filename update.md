@@ -2,10 +2,20 @@
 <h3>Update Log</h3>
 
 <details>
+  <summary><b>Change Log: 12/08/2025</b></summary>
+
+  1. **Added character blocking functionality**:  
+     Implemented a system for temporary and permanent character bans with recorded reasons and durations.  
+     Administrators can now effectively prevent rule violations, ensuring a fair and secure gaming environment. 
+	 
+</details>
+
+<details>
   <summary><b>Change Log: 03/08/2025</b></summary>
 
   1. Added new route for server role management:  
      Implemented a REST endpoint for assigning roles to users via the API. This feature enables administrators to manage user permissions more efficiently, integrating role control directly into the admin interface.
+	 
 </details>
 
 <details>

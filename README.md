@@ -354,6 +354,16 @@ If you are looking for the **Blade & Soul** Game API Server for the 2020 version
 
 
 ## Additions / Fixes
+
+<details>
+  <summary><b>Change Log: 12/08/2025</b></summary>
+
+  1. **Added character blocking functionality**:  
+     Implemented a system for temporary and permanent character bans with recorded reasons and durations.  
+     Administrators can now effectively prevent rule violations, ensuring a fair and secure gaming environment.
+     
+</details>
+
 <details>
   <summary><b>Change Log: 03/08/2025</b></summary>
 
