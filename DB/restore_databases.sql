@@ -22,11 +22,11 @@ FROM DISK = 'D:\Server-Api-BnS-2017\DB\GameItemsDB.bak' -- Путь к файл�
 WITH
     -- Задаём путь для основного файла данных (.mdf) после восстановления.
     -- Specifies the path for the main data file (.mdf) after restoration.
-    MOVE 'GameItemsDB' TO 'D:\DataDB_2017\GameItemsDB.mdf',
+    MOVE 'GameItemsDB' TO 'D:\SQLData\GameItemsDB.mdf',
     
     -- Задаём путь для журнала транзакций (.ldf) после восстановления.
     -- Specifies the path for the transaction log file (.ldf) after restoration.
-    MOVE 'GameItemsDB_log' TO 'D:\DataDB_2017\GameItemsDB_log.ldf',
+    MOVE 'GameItemsDB_log' TO 'D:\SQLData\GameItemsDB_log.ldf',
 
     -- Указываем параметр REPLACE, чтобы заменить существующую базу данных.
     -- The REPLACE option is used to overwrite the existing database, if it exists.
@@ -62,11 +62,11 @@ FROM DISK = 'D:\Server-Api-BnS-2017\DB\DonationsDb.bak' -- Путь к файл�
 WITH
     -- Задаём путь для основного файла данных (.mdf) после восстановления.
     -- Specifies the path for the main data file (.mdf) after restoration.
-    MOVE 'DonationsDb' TO 'D:\DataDB_2017\DonationsDb.mdf',
+    MOVE 'DonationsDb' TO 'D:\SQLData\DonationsDb.mdf',
     
     -- Задаём путь для журнала транзакций (.ldf) после восстановления.
     -- Specifies the path for the transaction log file (.ldf) after restoration.
-    MOVE 'DonationsDb_log' TO 'D:\DataDB_2017\DonationsDb_log.ldf',
+    MOVE 'DonationsDb_log' TO 'D:\SQLData\DonationsDb_log.ldf',
 
     -- Указываем параметр REPLACE, чтобы заменить существующую базу данных.
     -- The REPLACE option is used to overwrite the existing database, if it exists.

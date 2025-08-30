@@ -146,6 +146,7 @@ This API server has been tested on a private Blade & Soul test server.
 - **Promotions Management**: Control over in-game promotional events such as the Daily Dash login reward, with options for manual activation and automatic renewal.
 - **Discord Integration**: Automated Discord bot support sending periodic server monitoring data to designated channels and supporting the `/online` chat command for current player counts.
 - **Contextual Information Modals**: Context-sensitive informational pop-ups on all admin panel pages for enhanced usability and guidance.
+- **Coupon System**: Manage promotional campaigns, generate and redeem coupons, and deliver rewards directly to users' in-game mail.
 
 ## Requirements
 
@@ -354,6 +355,22 @@ If you are looking for the **Blade & Soul** Game API Server for the 2020 version
 
 
 ## Additions / Fixes
+
+<details>
+  <summary><b>Change Log: 30/08/2025</b></summary>
+
+  1. **Added new functionality in BNS API**:  
+     - Promo Issue Management (create and manage campaigns)  
+     - Coupon Generation (bulk/single codes)  
+     - Reward System (multiple rewards per campaign)  
+     - User Redemption (simple coupon redemption)  
+     - Activation Tracking (monitor coupon usage)  
+     - Admin Dashboard (statistics, activity, quick actions, CRUD)  
+     - Advanced Features (search, bulk ops, expiration, usage limits, reset)  
+     - 📬 Rewards after activation are automatically delivered to in-game mail  
+
+  ⚙️ **Important:** After updating via the web interface, make sure to run **`install.bat`** to install dependencies and apply changes.
+</details>
 
 <details>
   <summary><b>Change Log: 12/08/2025</b></summary>

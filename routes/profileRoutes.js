@@ -4,7 +4,7 @@ import sql from 'mssql';
 import fs from 'fs';
 import path from 'path';
 import chalk from 'chalk';
-import { configPlatformAcctDb, configBlGame01, configVirtualCurrencyDb, configBanDb, configLobbyDb } from '../config/dbConfig.js';
+import { configPlatformAcctDb, configBlGame01, configVirtualCurrencyDb, configBanDb, configLobbyDb, configCouponSystemDB } from '../config/dbConfig.js';
 import { convertFaction, convertSex, convertRace, convertMoney, convertJob } from '../utils/dataTransformations.js';
 import { getVipLevelByUserIdAndAppGroupCode, getSubscriptionDetails } from './GradeMembersRoutes.js';
 
@@ -333,6 +333,7 @@ router.get('/profile', async(req, res) => {
 
         log.success(`Profile data loaded successfully for ${chalk.cyan(user.UserName)}`);
         res.render('profile', {
+			UserId: user.UserId,
             UserName: user.UserName,
             LoginName: user.LoginName,
             Created: formattedCreated,
@@ -460,6 +461,195 @@ router.get('/api/user/avatar', async (req, res) => {
             success: false, 
             message: 'Internal server error',
             error: error.message 
+        });
+    }
+});
+
+// Маршрут для активации купона
+router.post('/api/coupon/activate', async (req, res) => {
+    const { couponCode, userId } = req.body;
+    
+    if (!couponCode || !userId) {
+        return res.status(400).json({
+            success: false,
+            message: 'Coupon code and user ID are required'
+        });
+    }
+
+    let pool = null;
+    try {
+        log.dbConnect('CouponSystemDB');
+        pool = await sql.connect(configCouponSystemDB);
+        log.dbConnected('CouponSystemDB');
+
+        // Проверяем существование купона
+        const couponQuery = `
+            SELECT pc.*, pi.RedeemFrom, pi.RedeemTo, pi.ExpirationDuration
+            FROM PromoCoupons pc
+            INNER JOIN PromoIssues pi ON pc.IssueId = pi.IssueId
+            WHERE pc.CouponCode = @couponCode
+        `;
+
+        const couponResult = await pool.request()
+            .input('couponCode', sql.NVarChar, couponCode)
+            .query(couponQuery);
+
+        if (couponResult.recordset.length === 0) {
+            return res.json({
+                success: false,
+                message: 'Invalid coupon code'
+            });
+        }
+
+        const coupon = couponResult.recordset[0];
+
+        // Проверяем срок действия купона
+        const now = new Date();
+        if (coupon.RedeemFrom && new Date(coupon.RedeemFrom) > now) {
+            return res.json({
+                success: false,
+                message: 'Coupon is not yet available for redemption'
+            });
+        }
+
+        if (coupon.RedeemTo && new Date(coupon.RedeemTo) < now) {
+            return res.json({
+                success: false,
+                message: 'Coupon has expired'
+            });
+        }
+
+        // Проверяем лимит использований
+        if (coupon.UsedCount >= coupon.MaxUses) {
+            return res.json({
+                success: false,
+                message: 'Coupon has reached maximum usage limit'
+            });
+        }
+
+        // Проверяем, активировал ли пользователь уже этот купон
+        const activationCheckQuery = `
+            SELECT COUNT(*) as count 
+            FROM PromoActivations 
+            WHERE CouponId = @couponId AND UserId = @userId
+        `;
+
+        const activationCheck = await pool.request()
+            .input('couponId', sql.Int, coupon.CouponId)
+            .input('userId', sql.UniqueIdentifier, userId)
+            .query(activationCheckQuery);
+
+        if (activationCheck.recordset[0].count > 0) {
+            return res.json({
+                success: false,
+                message: 'You have already activated this coupon'
+            });
+        }
+
+        // Активируем купон
+        const activationQuery = `
+            INSERT INTO PromoActivations (CouponId, UserId, ActivatedAt)
+            VALUES (@couponId, @userId, SYSDATETIMEOFFSET())
+        `;
+
+        await pool.request()
+            .input('couponId', sql.Int, coupon.CouponId)
+            .input('userId', sql.UniqueIdentifier, userId)
+            .query(activationQuery);
+
+        // Обновляем счетчик использований
+        await pool.request()
+            .input('couponId', sql.Int, coupon.CouponId)
+            .query('UPDATE PromoCoupons SET UsedCount = UsedCount + 1 WHERE CouponId = @couponId');
+
+        // Получаем награды за купон
+        const rewardsQuery = `
+            SELECT * FROM PromoRewards 
+            WHERE IssueId = @issueId
+        `;
+
+        const rewards = await pool.request()
+            .input('issueId', sql.Int, coupon.IssueId)
+            .query(rewardsQuery);
+
+        await pool.close();
+
+        log.success(`Coupon ${couponCode} activated by user ${userId}`);
+
+        res.json({
+            success: true,
+            message: 'Coupon activated successfully!',
+            rewards: rewards.recordset
+        });
+
+    } catch (error) {
+        log.error(`Coupon activation error: ${error.message}`);
+        
+        if (pool) await pool.close();
+        
+        res.status(500).json({
+            success: false,
+            message: 'Server error during coupon activation'
+        });
+    }
+});
+
+// Маршрут /api/coupon/history в profileRoutes.js
+router.get('/api/coupon/history', async (req, res) => {
+    const { userId } = req.query;
+    
+    if (!userId) {
+        return res.status(400).json({
+            success: false,
+            message: 'User ID is required'
+        });
+    }
+
+    let pool = null;
+    try {
+        log.dbConnect('CouponSystemDB');
+        pool = await sql.connect(configCouponSystemDB);
+        log.dbConnected('CouponSystemDB');
+
+        // Исправленный запрос для MSSQL с включением информации о наградах
+        const historyQuery = `
+            SELECT TOP 50
+                pa.ActivationId,
+                pa.ActivatedAt,
+                pc.CouponCode,
+                pi.IssueName,
+                STUFF((
+                    SELECT ', ' + pr.RewardName + ' x' + CAST(pr.Quantity AS VARCHAR)
+                    FROM PromoRewards pr
+                    WHERE pr.IssueId = pi.IssueId
+                    FOR XML PATH(''), TYPE
+                ).value('.', 'NVARCHAR(MAX)'), 1, 2, '') as Rewards
+            FROM PromoActivations pa
+            INNER JOIN PromoCoupons pc ON pa.CouponId = pc.CouponId
+            INNER JOIN PromoIssues pi ON pc.IssueId = pi.IssueId
+            WHERE pa.UserId = @userId
+            ORDER BY pa.ActivatedAt DESC
+        `;
+
+        const historyResult = await pool.request()
+            .input('userId', sql.UniqueIdentifier, userId)
+            .query(historyQuery);
+
+        await pool.close();
+
+        res.json({
+            success: true,
+            history: historyResult.recordset
+        });
+
+    } catch (error) {
+        log.error(`Coupon history error: ${error.message}`);
+        
+        if (pool) await pool.close();
+        
+        res.status(500).json({
+            success: false,
+            message: 'Server error loading activation history'
         });
     }
 });
