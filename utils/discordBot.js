@@ -1,5 +1,5 @@
 // discordBot.js
-import { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder } from 'discord.js';
+import { Client, GatewayIntentBits, EmbedBuilder, AttachmentBuilder, Events } from 'discord.js';
 import axios from 'axios';
 import xml2js from 'xml2js';
 import path from 'path';
@@ -326,13 +326,15 @@ class DiscordBot {
             return;
         }
 
-        this.client.on('ready', () => {
+        // Исправлено: используем Events.ClientReady вместо 'ready'
+        this.client.on(Events.ClientReady, () => {
             this.log(`Logged in as ${this.client.user.tag}`);
             this.initialize();
             this.startAutoUpdates();
         });
 
-        this.client.on('interactionCreate', async interaction => {
+        // Исправлено: используем Events.InteractionCreate вместо 'interactionCreate'
+        this.client.on(Events.InteractionCreate, async interaction => {
             if (!interaction.isCommand()) return;
 
             try {

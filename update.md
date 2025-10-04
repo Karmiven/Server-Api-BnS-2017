@@ -2,6 +2,35 @@
 <h3>Update Log</h3>
 
 <details>
+  <summary><b>Change Log: 04/10/2025</b></summary>
+
+### 📧 Mail Monitoring
+   - View sent mail between players
+   - Search by username, character, or item ID
+   - Display mail contents (items and gold)
+
+### 🎁 In-Game Mail Monitoring
+   - Track items in the Warehouse system
+   - Filter by user and item ID
+   - Manage item statuses (in mail, received, used)
+
+### 🔧 Additional Features
+   - Cache item database for fast search
+   - Delete items from in-game mail
+   - Automatic cache updates every 5 minutes
+   - Visual indicators for item statuses and types
+
+## Technical Details
+   - Support for multiple databases (GameItemsDB, BlGame01, GameWarehouseDB)
+   - Optimized SQL queries with JOINs between tables
+   - Asynchronous data processing
+---
+⚠️ **Note:** To ensure updates work properly, a restart of the BNS API is required.
+
+---
+</details>
+
+<details>
   <summary><b>Change Log: 30/08/2025</b></summary>
 
   1. **Added new functionality in BNS API**:  

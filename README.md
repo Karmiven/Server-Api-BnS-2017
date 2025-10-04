@@ -147,6 +147,8 @@ This API server has been tested on a private Blade & Soul test server.
 - **Discord Integration**: Automated Discord bot support sending periodic server monitoring data to designated channels and supporting the `/online` chat command for current player counts.
 - **Contextual Information Modals**: Context-sensitive informational pop-ups on all admin panel pages for enhanced usability and guidance.
 - **Coupon System**: Manage promotional campaigns, generate and redeem coupons, and deliver rewards directly to users' in-game mail.
+- **Mail & Item Monitoring**: Manage and track mail and items between players, including in-game mailbox.
+
 
 ## Requirements
 
@@ -355,6 +357,35 @@ If you are looking for the **Blade & Soul** Game API Server for the 2020 version
 
 
 ## Additions / Fixes
+
+<details>
+  <summary><b>Change Log: 04/10/2025</b></summary>
+
+### 📧 Mail Monitoring
+   - View sent mail between players
+   - Search by username, character, or item ID
+   - Display mail contents (items and gold)
+
+### 🎁 In-Game Mail Monitoring
+   - Track items in the Warehouse system
+   - Filter by user and item ID
+   - Manage item statuses (in mail, received, used)
+
+### 🔧 Additional Features
+   - Cache item database for fast search
+   - Delete items from in-game mail
+   - Automatic cache updates every 5 minutes
+   - Visual indicators for item statuses and types
+
+## Technical Details
+   - Support for multiple databases (GameItemsDB, BlGame01, GameWarehouseDB)
+   - Optimized SQL queries with JOINs between tables
+   - Asynchronous data processing
+---
+⚠️ **Note:** To ensure updates work properly, a restart of the BNS API is required.
+
+---
+</details>
 
 <details>
   <summary><b>Change Log: 30/08/2025</b></summary>
